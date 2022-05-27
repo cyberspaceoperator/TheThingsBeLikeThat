@@ -41,11 +41,17 @@ Tools: Incognito, Metasploit, Powershell, mimikatz&#x20;
 ### Cached Credentials
 
 * Stored domain credentials to allow logons when domain controller access is unavailable. Most systems cache the last 10 logon hashes by default
-* Cached creds must be cracked (they're store in a registry hive \[SECURITY\Cache key]). Hashes are salted and case-sensitive, making decryption very slow. These hashes cannot be used for PtH attacks
+* Cached creds must be cracked (they're store in a registry hive \[**SECURITY\Cache key**]). Hashes are salted and case-sensitive, making decryption very slow. These hashes cannot be used for PtH attacks
 
 Tools: cachedump, Metasploit, PWDumpX, creddump, AceHash
 
 ### LSA Secrets
+
+* Credentials stored in the registry \[**SECURITY/Policy/Secrets**] to allow services or tasks to be run with user privs. In addition to **service accounts,** may also hold application passwords like VPN or auto-logon credentials.
+* How are they used / acquired
+  * Admin privs allow access to encrypted registry data and the keys necessary to decrypt. Passwords are plaintext
+
+Tools: Cain, metasploit, mimikatz, gsecdump, acehash, creddump, powershell
 
 ### Tickets
 
