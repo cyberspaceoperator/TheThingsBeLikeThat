@@ -21,7 +21,7 @@ Uses:
 * &#x20;Not writable
   * Purchase t5557 cards on ebay/amazon, though or use a **ProxMarkIII**
 
-![](<../../.gitbook/assets/image (25).png>)
+![](<../../.gitbook/assets/image (25) (1).png>)
 
 &#x20;Sequentially numbered LF cards
 

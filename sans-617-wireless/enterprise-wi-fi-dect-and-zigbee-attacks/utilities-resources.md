@@ -5,7 +5,7 @@
 * Slow/time consuming
 * Dictionary based
 
-![](<../../.gitbook/assets/image (36).png>)
+![](<../../.gitbook/assets/image (36) (1).png>)
 
 **aircrack-ng** (wpa/wpa2 psk dictionary attack)
 
@@ -56,7 +56,7 @@ WPS&#x20;
 
 #### HOSTAPD-WPE
 
-![](<../../.gitbook/assets/image (86).png>)
+![](<../../.gitbook/assets/image (86) (1).png>)
 
 {% embed url="https://github.com/aircrack-ng/aircrack-ng/tree/master/patches/wpe/hostapd-wpe" %}
 

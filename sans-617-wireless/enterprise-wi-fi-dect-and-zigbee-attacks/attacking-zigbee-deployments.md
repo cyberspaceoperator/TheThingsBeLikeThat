@@ -24,7 +24,7 @@
 
 ![](<../../.gitbook/assets/image (68).png>)
 
-![](<../../.gitbook/assets/image (51).png>)
+![](<../../.gitbook/assets/image (51) (1).png>)
 
 ### Network Layer
 

@@ -62,7 +62,7 @@ Bluetooth evolution: Classic -> AMP -> Low Energy
 
 &#x20;\- When 2 devices want to connect, a piconet is formed
 
-![](<../../.gitbook/assets/image (26).png>)
+![](<../../.gitbook/assets/image (26) (1).png>)
 
 ### Pairing authentication attack
 

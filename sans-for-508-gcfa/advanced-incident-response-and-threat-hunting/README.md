@@ -59,7 +59,7 @@ Don't just start pulling shit off the network as a knee-jerk reaction, it WILL t
 
 Once an organization works their way all the way up the pyramid, they should have the capability to remediate, respond, etc in real-time. Visibility of the entire network is crucial and takes a lot of time. Most organizations aren't all the way up the top of the pyramid acting at the same pace as attackers.
 
-![](<../../.gitbook/assets/image (65).png>)
+![](<../../.gitbook/assets/image (65) (1).png>)
 
 ## Reactive Response vs. Threat Hunting
 

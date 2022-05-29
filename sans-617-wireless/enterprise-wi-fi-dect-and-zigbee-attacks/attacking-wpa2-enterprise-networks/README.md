@@ -20,7 +20,7 @@ airgraph-ng -i <previously output file above> -g CPG -o <outputfile>
 
 * [https://github.com/daddycocoaman/BeaconGraph](https://github.com/daddycocoaman/BeaconGraph)
 
-![](<../../../.gitbook/assets/image (45).png>)
+![](<../../../.gitbook/assets/image (45) (1).png>)
 
 ### PEAP
 
@@ -32,7 +32,7 @@ airgraph-ng -i <previously output file above> -g CPG -o <outputfile>
 
 ![](<../../../.gitbook/assets/image (61).png>)
 
-![](<../../../.gitbook/assets/image (58).png>)
+![](<../../../.gitbook/assets/image (58) (1).png>)
 
 ![](<../../../.gitbook/assets/image (34).png>)
 
