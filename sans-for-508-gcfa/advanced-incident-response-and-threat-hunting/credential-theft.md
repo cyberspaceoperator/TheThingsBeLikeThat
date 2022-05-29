@@ -47,15 +47,29 @@ Tools: cachedump, Metasploit, PWDumpX, creddump, AceHash
 
 ### LSA Secrets
 
-* Credentials stored in the registry \[**SECURITY/Policy/Secrets**] to allow services or tasks to be run with user privs. In addition to **service accounts,** may also hold application passwords like VPN or auto-logon credentials.
+* Credentials stored in the registry \[**SECURITY/Policy/Secrets**] to allow services or tasks to be run with user privs without user intervention. In addition to **service accounts,** may also hold application passwords like VPN or auto-logon credentials.
 * How are they used / acquired
-  * Admin privs allow access to encrypted registry data and the keys necessary to decrypt. Passwords are plaintext
+  * Admin privs allow access to encrypted registry data and the keys necessary to decrypt. Passwords are **plaintext**
+* **Decrypting LSA Secrets (Nishang) \[ requires an administrator 32-bit Powershell console)**
+  * **Get-LsaSecret.ps1** used from Nishang Powershell pentest framework used to dump LSA Secrets&#x20;
+
+![](<../../.gitbook/assets/image (81).png>)
 
 Tools: Cain, metasploit, mimikatz, gsecdump, acehash, creddump, powershell
 
 ### Tickets
 
+* Kerberos issues tickets to authenticated users that can be reused without additional authentication. Tickets are cached in memory and are valid for 10 hours
+* How are they acquired / used?
+  * Tickets can be stolen from memory and used for authentication somewhere else (**Pass the ticket**)
+  * Access to DC allows tickets to be created for any user with no expiration (**Golden Ticket**)
+  * Service account tickets can be requested and forges, including offline cracking of service account hashes (**Kerberoasting**)
+
+Tools: mimikatz, WCE, kerberoast
+
 ### NTDS.DIT
+
+{% embed url="https://github.com/SecureAuthCorp/impacket/blob/master/examples/secretsdump.py" %}
 
 ## Defending Credentials
 
@@ -74,7 +88,7 @@ Tools: Cain, metasploit, mimikatz, gsecdump, acehash, creddump, powershell
 
 * Stop remote interactive sessions with highly priv accounts
 * Proper termination of RDP sessions
-  * Win 8.1 force the use of Restricted admin
+  * Win 8.1 -> force the use of Restricted admin
   * Win 10 -> deploy Remote Credential Guard
 * Account designation of "Account is Sensitive and Cannot be Delegated" in Active Directory (this will block the token from being used over the network)
 * Domain Protected User Account/Group
@@ -83,6 +97,29 @@ Tools: Cain, metasploit, mimikatz, gsecdump, acehash, creddump, powershell
 
 ### LSA Secrets
 
+* Prevent admin account compromise (least priv)
+* Do not employ services or schedule tasks requiring priv accounts on low-trust systems
+* Reduce number of services that require domain accounts to execute
+  * Heavily audit any accounts that must be used
+* (Group) Managed Service Accounts (Changes password every 30 days by default + long complex passwords required)
+
 ### Tickets
+
+{% embed url="https://dfirblog.wordpress.com/2015/12/13/protecting-windows-networks-kerberos-attacks/" %}
+
+{% embed url="https://cert.europa.eu/static/WhitePapers/CERT-EU-SWP_14_07_PassTheGolden_Ticket_v1_1.pdf" %}
+
+![](<../../.gitbook/assets/image (39).png>)
+
+* Credential Guard (Win 10+)
+  * Domain protected users group (Win 8+): Some attacks
+* Remote Credential Guard (Win 10+)
+  * Restricted Admin (Win8+)
+* Long and complex passwords on service accounts
+  * Change service account passwords regularly
+  * Group Managed Service Accounts are a great mitigation
+* Audit service accounts for unusual activity
+* Limit and protect Domain Admin
+  * Change KRBTGT password regularly (yearly)
 
 ### NTDS.DIT

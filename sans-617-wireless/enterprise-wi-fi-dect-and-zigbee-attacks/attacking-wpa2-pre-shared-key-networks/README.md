@@ -37,7 +37,7 @@ aircrack-ng -w <wordlist> <pcap filename>
 * Default MiFi Password : 8 Hex characters
   * 232 or 168 = 4.2 billion entries / about 90 minutes at 90K PSK/second
 
-![](<../../../.gitbook/assets/image (43).png>)
+![](<../../../.gitbook/assets/image (43) (1).png>)
 
 ### PMKID Attack
 

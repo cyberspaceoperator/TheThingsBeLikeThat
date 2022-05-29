@@ -36,7 +36,7 @@
 
 ### CMM Protocol
 
-![](<../../.gitbook/assets/image (81).png>)
+![](<../../.gitbook/assets/image (81) (1).png>)
 
 ### Security Modes
 

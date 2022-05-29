@@ -13,3 +13,7 @@ mimikatz
 mimikatz
 
 ![mimikatz token stealing](<../.gitbook/assets/image (57).png>)
+
+Pass the ticket (mimikatz)
+
+![mimikatz pass the ticket](<../.gitbook/assets/image (43).png>)
