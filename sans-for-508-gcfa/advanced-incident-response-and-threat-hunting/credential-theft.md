@@ -81,7 +81,8 @@ Tools: mimikatz, WCE, kerberoast
   * Win 8.1 force the use of Restricted admin
   * Win 10 -> deploy Remote Credential Guard
 * Upgrade to Windows 10
-  * Credential guard
+  * Credential Guard
+  * Device Guard
   * Domain Protected User Accounts
 
 ### Tokens
