@@ -31,3 +31,7 @@
 ![amcacheparser.exe usage](<../.gitbook/assets/image (51).png>)
 
 ![amcacheparser.exe output](<../.gitbook/assets/image (25).png>)
+
+appcompatprocessor.py
+
+![](<../.gitbook/assets/image (53).png>)

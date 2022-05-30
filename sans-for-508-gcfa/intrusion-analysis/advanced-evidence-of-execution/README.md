@@ -76,7 +76,7 @@ PECmd.exe
            Short options (single letter) are prefixed with a single dash. Long commands are prefixed with two dashes
 ```
 
-![PECmd screenshot](<../../.gitbook/assets/image (65).png>)
+![PECmd screenshot](<../../../.gitbook/assets/image (65).png>)
 
 ## Application Compatibility&#x20;
 
@@ -84,7 +84,13 @@ PECmd.exe
 
 Shimcache - Designed to detect and remediate program compatibility issues when a program launches. A program may have been built to be used on an older version of windows, so Microsoft employs a subsystem allowing a program to invoke properties of different operating system versions. The different compatibility modes are called 'shims'
 
+* The Last Modified Time reported in ShimCache is a file system time and date stamp. It is the LAST MODIFICATION time of the executable file.
 * No execution time
+* Shimcache does not track execution time for Win7+ systems.
+
+{% hint style="warning" %}
+Shimcache does exhibit some interesting behavior: if the executable is modified (content changes) or renamed, it will be shimmed again, and a new entry will be created for the same file. Thus a rename pattern in this artifact looks like multiple entries with the exact same last modification date, but different names
+{% endhint %}
 
 {% embed url="https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-7/dd837644(v=ws.10)?redirectedfrom=MSDN" %}
 
@@ -92,7 +98,7 @@ Shimcache - Designed to detect and remediate program compatibility issues when a
 
 [https://web.archive.org/web/20190209113245/https://www.fireeye.com/content/dam/fireeye-www/services/freeware/shimcache-whitepaper.pdf](https://web.archive.org/web/20190209113245/https://www.fireeye.com/content/dam/fireeye-www/services/freeware/shimcache-whitepaper.pdf)
 
-![](<../../.gitbook/assets/image (44).png>)
+![](<../../../.gitbook/assets/image (44).png>)
 
 #### **AppCompatCache** - used to track application execution including name, full path, and last mod time.&#x20;
 
@@ -143,14 +149,36 @@ Examples: AppCompatCacheParser.exe --csv c:\temp -t -c 2
 * InventoryApplicationFile key
   * Contains subkeys named per application, providing easy means to ident executables of interest
 
-![](<../../.gitbook/assets/image (45).png>)
+![](<../../../.gitbook/assets/image (45).png>)
 
-![](<../../.gitbook/assets/image (26).png>)
+![](<../../../.gitbook/assets/image (26).png>)
 
 #### Amcacheparser.exe
 
+* Most important output files from AmcacheParser (see 2nd screenshot below)
+  * Amcache\_UnassociatedEntries
+  * Amcache\_DriverBinaries
+  * Amcache\_ProgramEntries
+
 {% embed url="https://ericzimmerman.github.io/#!index.md" %}
 
-![](<../../.gitbook/assets/image (58).png>)
+![](<../../../.gitbook/assets/image (58).png>)
 
-![](<../../.gitbook/assets/image (43).png>)
+![amcacheparser.exe output](<../../../.gitbook/assets/image (43).png>)
+
+## Automating Application Execution Analysis
+
+* Seach across the enterprise for:
+  * Malware 101: One/two letter executables, executions from temp of $Recycle.Bin folders
+  * Tools: **psexesvc.exe, wmic.exe, scrons.exe, certutil.exe, rar.exe, wsmprochost.exe, whoami.exe**
+  * Indicators of Compromise: Known malware, tool, staging directories
+
+**appcompatprocessor.py** - Designed to perform scalable hunting of ShimCache and Amcache artifacts
+
+* Capable of ingesting data in many different formats
+* Easy merging of ShimCache and Amcache artifacts
+
+{% embed url="https://github.com/mbevilacqua/appcompatprocessor" %}
+appcompatprocessor.py link
+{% endembed %}
+
