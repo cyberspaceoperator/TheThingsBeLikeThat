@@ -84,7 +84,7 @@ Once an organization works their way all the way up the pyramid, they should hav
 
 ![](<../../.gitbook/assets/image (54).png>)
 
-![Page 57 Book 1](<../../.gitbook/assets/image (32).png>)
+![Page 57 Book 1](<../../.gitbook/assets/image (32) (1).png>)
 
 ### Team Roles
 

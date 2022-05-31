@@ -8,7 +8,7 @@
 
 #### mimikatz pass-the-hash
 
-![mimikatz](<../.gitbook/assets/image (85).png>)
+![mimikatz](<../.gitbook/assets/image (85) (1).png>)
 
 #### mimikatz
 

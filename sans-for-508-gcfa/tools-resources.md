@@ -14,3 +14,15 @@
 {% embed url="https://www.jaiminton.com/cheatsheet/DFIR/" %}
 
 {% embed url="https://github.com/WiredPulse/PoSh-R2" %}
+
+## Event log analysis
+
+{% embed url="https://eventlogxp.com/" %}
+
+{% embed url="https://ericzimmerman.github.io/#!index.md" %}
+This is a suite of tools for more than just event log analysis
+{% endembed %}
+
+{% embed url="https://github.com/EricZimmerman/evtx/tree/master/evtx/Maps" %}
+EvtcECmd
+{% endembed %}

@@ -117,6 +117,6 @@ airdecap-ng -p <pre-shared key> -e <SSID> <packetdump>.dump
 
 ![](<../../../.gitbook/assets/image (74).png>)
 
-![](<../../../.gitbook/assets/image (72).png>)
+![](<../../../.gitbook/assets/image (72) (1).png>)
 
 {% embed url="https://www.welivesecurity.com/wp-content/uploads/2020/02/ESET_Kr00k.pdf" %}

@@ -14,7 +14,7 @@
 
 ## Compromising Credentials
 
-![](<../../.gitbook/assets/image (73).png>)
+![](<../../.gitbook/assets/image (73) (1).png>)
 
 ![Logon types](<../../.gitbook/assets/image (28).png>)
 
