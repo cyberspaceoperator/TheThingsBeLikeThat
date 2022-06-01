@@ -75,7 +75,7 @@ If you use the RunAs command to start a program under a different user account a
 
 When you access a computer through Terminal Services, Remote Desktop or Remote Assistance windows logs the logon attempt with logon type 10 which makes it easy to distinguish true console logons from a remote desktop session. Note however that prior to XP, Windows 2000 doesn’t use logon type 10 and terminal services logons are reported as logon type 2.
 
-### Logon Type 11 – CachedInteractive
+#### Logon Type 11 – CachedInteractive
 
 #### Windows supports a feature called Cached Logons which facilitate mobile users. When you are not connected to the your organization’s network and attempt to logon to your laptop with a domain account there’s no domain controller available to the laptop with which to verify your identity. To solve this problem, Windows caches a hash of the credentials of the last 10 interactive domain logons. Later when no domain controller is availab
 
@@ -152,17 +152,75 @@ Event IDs (Windows 10 / Server 2016 and up):
 
 Event IDs
 
-* 5140: Network share was accessed
-* 5145: Shared Object accessed (Detailed File Share auditing)
+* 5140: Network share was accessed (doesn't report file reference, turn on Detailed file share auditing to generate a 5145)
+* 5145: Shared Object accessed (Turn on Detailed File Share auditing to get this)
+* 5142-5144: created/modified/deleted
 
 ### Cobalt strike mapping shares
 
+
+
 ### Explicit credentials / runas
 
+4624: Successful Logon (Logon type 9)
+
+4648: Logon using explicit credentials
+
 ### Scheduled Tasks
+
+Event IDs
+
+Can be scheduled locally or remotely, remote scheduled tasks also cause Logom,. n ID 4624 Type 3
+
+* 106 | 4698: Created (Task scheduler | security log)
+* 140 | 4702: Updated (Task scheduler | security log)
+* 141 | 4699: Deleted  (Task scheduler | security log)
+* 200 / 201:Executed / Completed (Task scheduler log)
+* 4700 / 4701: enabled / disabled (Security log)
+
+If logging isn't enabled for scheduled tasks, you can also look in %systemroot%\system32\tasks folder
+
+### Suspicious Services (lots of noise but might yield some results)
+
+* 7034: Service crashed unexpectedly&#x20;
+* 7035: Service sent a Start/Stop control
+* 7036: Service started or stopped
+* 7040: Start type changed (Boot | On Request | Disabled)
+* 7045: A new service was installed on the system (Win2008R2+)
+* 4697: A new service was installed on the system (**Security** Log)
+
+### Event log clearing
+
+Admin rights needed
+
+Clearing is all or nothing
+
+1102: Audit log cleared (Security log)
+
+104: Audit log cleared (System log)
+
+517 : Windows XP equivalent ID
+
+## Event Log Attacks
+
+* Mimikatz event::drop
+* DanderSpritz eventlogedit [https://blog.fox-it.com/2017/12/08/detection-and-recovery-of-nsas-covered-up-tracks/](https://blog.fox-it.com/2017/12/08/detection-and-recovery-of-nsas-covered-up-tracks/)
+* Invoke\_Phant0m :: thread killing [https://github.com/hlldz/Phant0m](https://github.com/hlldz/Phant0m)
+* Event log service suspension; memory-based attacks
+* Arbitrary events can be removed, including EID 1102
+
+Mitigation:
+
+* Event log forwarding
+* Loggin "heartbeat"
+* Log gap analysis
 
 ## Tools
 
 {% embed url="https://github.com/EricZimmerman/evtx/tree/master/evtx/Maps" %}
 
 {% embed url="https://eventlogxp.com/" %}
+
+{% embed url="https://github.com/hlldz/Phant0m" %}
+
+{% embed url="https://blog.fox-it.com/2017/12/08/detection-and-recovery-of-nsas-covered-up-tracks/" %}
