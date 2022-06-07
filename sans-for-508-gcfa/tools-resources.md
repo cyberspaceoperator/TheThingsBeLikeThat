@@ -1,5 +1,7 @@
 # Tools / Resources
 
+## <mark style="color:blue;">****</mark>
+
 ## <mark style="color:blue;">**IOC Tools**</mark>
 
 * STIX https://for508.com/58a14
@@ -14,6 +16,12 @@
 {% embed url="https://www.jaiminton.com/cheatsheet/DFIR/" %}
 
 {% embed url="https://github.com/WiredPulse/PoSh-R2" %}
+
+{% embed url="https://www.youtube.com/c/13cubed/videos" %}
+Cool Forensics YouTube channel
+{% endembed %}
+
+
 
 ## Event log analysis
 
