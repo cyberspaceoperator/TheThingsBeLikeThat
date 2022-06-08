@@ -91,9 +91,9 @@ System event log
 * Logs all commands types and the output of those commands
   * Written to \Users\\\<account>\Documents
 
-### PSReadline (on by default)
+### PSReadline \[ConsoleHost\_history.txt] (on by default)
 
-* Records last 4196 commands types in PS console (not ISE)
+* Records last 4096 commands types in PS console (not ISE)
 * Attackers can disable (or remove PSReadLine module)
   * Set-PSReadLineOption - HistorySaveStyle SaveNothing
   * Remove-Module -Name PsReadLine
