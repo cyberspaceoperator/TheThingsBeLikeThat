@@ -10,6 +10,8 @@ Last time of execution store _inside_ the .pf file as well
 
 Modification date of .pf file (\~ -10 seconds)
 
+Hex at the end of prefetch name is a hash of the file's path and any command-line arguments
+
 #### To audit or disable prefetch
 
 **To disable prefetch**
