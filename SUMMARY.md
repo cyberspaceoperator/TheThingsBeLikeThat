@@ -178,6 +178,7 @@
     * [Exercise 2.2 - Tracking Credentials](sans-for-508-gcfa/intrusion-analysis/event-log-analysis-for-responders-and-hunters/exercise-2.2-tracking-credentials.md)
   * [Lateral Movement Adversary Tactics](sans-for-508-gcfa/intrusion-analysis/lateral-movement-adversary-tactics/README.md)
     * [Exercise 2.3 - Tracking Lateral Movement](sans-for-508-gcfa/intrusion-analysis/lateral-movement-adversary-tactics/exercise-2.3-tracking-lateral-movement.md)
+  * [Command Line, PowerShell, and WMI Analysis](sans-for-508-gcfa/intrusion-analysis/command-line-powershell-and-wmi-analysis.md)
 * [Memory Forensics in Incident Response and Threat Hunting](sans-for-508-gcfa/memory-forensics-in-incident-response-and-threat-hunting.md)
 * [Timeline Analysis](sans-for-508-gcfa/timeline-analysis.md)
 * [Advanced Adversary and Anti-Forensics Detection](sans-for-508-gcfa/advanced-adversary-and-anti-forensics-detection.md)

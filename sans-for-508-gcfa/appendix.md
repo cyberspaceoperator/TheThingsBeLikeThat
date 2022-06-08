@@ -8,15 +8,15 @@
 
 #### mimikatz pass-the-hash
 
-![mimikatz](<../.gitbook/assets/image (85) (1).png>)
+![mimikatz](<../.gitbook/assets/image (85) (1) (1).png>)
 
 #### mimikatz
 
-![mimikatz token stealing](<../.gitbook/assets/image (57).png>)
+![mimikatz token stealing](<../.gitbook/assets/image (57) (1).png>)
 
 #### Pass the ticket (mimikatz)
 
-![mimikatz pass the ticket](<../.gitbook/assets/image (43) (1).png>)
+![mimikatz pass the ticket](<../.gitbook/assets/image (43) (1) (1).png>)
 
 #### PECmd.exe
 
@@ -34,4 +34,4 @@
 
 appcompatprocessor.py
 
-![](<../.gitbook/assets/image (53).png>)
+![](<../.gitbook/assets/image (53) (1).png>)

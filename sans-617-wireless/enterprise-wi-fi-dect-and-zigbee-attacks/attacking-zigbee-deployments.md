@@ -32,7 +32,7 @@
 * All zeroes address indicated coordinator
 * Address given to devices when they join the network by coordinator
 
-![](<../../.gitbook/assets/image (33).png>)
+![](<../../.gitbook/assets/image (33) (1).png>)
 
 ### CMM Protocol
 

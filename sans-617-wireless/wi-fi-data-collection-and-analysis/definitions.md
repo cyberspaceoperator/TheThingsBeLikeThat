@@ -54,7 +54,7 @@ Signal Strength / Outdoor Range Mapping\
       * Probe Request (subtype 4) - STA looking for known WLANs
       * Deauthentication \[_deauth_] Request (subtype 12) - Disconnect
 
-![Frame control fields](<../../.gitbook/assets/image (56).png>)
+![Frame control fields](<../../.gitbook/assets/image (56) (1).png>)
 
 ![](<../../.gitbook/assets/image (35).png>)
 

@@ -14,7 +14,7 @@
 aircrack-ng -w <wordlist> <pcap filename>
 ```
 
-![](<../../../.gitbook/assets/image (59) (1) (1).png>)
+![](<../../../.gitbook/assets/image (59) (1) (1) (1).png>)
 
 ![](<../../../.gitbook/assets/image (64).png>)
 
@@ -37,13 +37,13 @@ aircrack-ng -w <wordlist> <pcap filename>
 * Default MiFi Password : 8 Hex characters
   * 232 or 168 = 4.2 billion entries / about 90 minutes at 90K PSK/second
 
-![](<../../../.gitbook/assets/image (43) (1) (1).png>)
+![](<../../../.gitbook/assets/image (43) (1) (1) (1).png>)
 
 ### PMKID Attack
 
-![](<../../../.gitbook/assets/image (53) (1).png>)
+![](<../../../.gitbook/assets/image (53) (1) (1).png>)
 
-![](<../../../.gitbook/assets/image (42).png>)
+![](<../../../.gitbook/assets/image (42) (1).png>)
 
 ```
 sudo bettercap -iface wlan0
@@ -115,7 +115,7 @@ airdecap-ng -p <pre-shared key> -e <SSID> <packetdump>.dump
 
 ![](<../../../.gitbook/assets/image (49) (1).png>)
 
-![](<../../../.gitbook/assets/image (74).png>)
+![](<../../../.gitbook/assets/image (74) (1).png>)
 
 ![](<../../../.gitbook/assets/image (72) (1).png>)
 

@@ -56,13 +56,13 @@ Bluetooth evolution: Classic -> AMP -> Low Energy
 
 #### LMP (Link Management Procol)
 
-![](<../../.gitbook/assets/image (90).png>)
+![](<../../.gitbook/assets/image (90) (1).png>)
 
 ### Joining a piconet
 
 &#x20;\- When 2 devices want to connect, a piconet is formed
 
-![](<../../.gitbook/assets/image (26) (1).png>)
+![](<../../.gitbook/assets/image (26) (1) (1).png>)
 
 ### Pairing authentication attack
 

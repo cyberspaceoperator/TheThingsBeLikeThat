@@ -12,7 +12,7 @@
 
 ### Shimcache
 
-![](<../.gitbook/assets/image (59) (1).png>)
+![](<../.gitbook/assets/image (59) (1) (1).png>)
 
 ### Amcache.hve
 
@@ -21,3 +21,27 @@
 Driver Signing
 
 * In windows 64 bit systems, ALL DRIVERS SHOULD BE SIGNED, if you find one that's not, you found something interesting
+
+## Evidence of Malware Execution
+
+![](<../.gitbook/assets/image (77).png>)
+
+![](<../.gitbook/assets/image (57).png>)
+
+### Process tracking and capturing command lines
+
+![](<../.gitbook/assets/image (55).png>)
+
+### WMI Cheat sheet for Intrusion analysis
+
+![](<../.gitbook/assets/image (42).png>)
+
+## Powershell
+
+![](<../.gitbook/assets/image (90).png>)
+
+![](<../.gitbook/assets/image (58).png>)
+
+![powershell cheatsheet for intrusion analysis](<../.gitbook/assets/image (52).png>)
+
+![](<../.gitbook/assets/image (41).png>)

@@ -1,5 +1,25 @@
 # Event Log Analysis for Responders and Hunters
 
+## <mark style="color:orange;">Event Log Summary</mark>
+
+![](<../../../.gitbook/assets/image (26).png>)
+
+### How to collect logs
+
+![](<../../../.gitbook/assets/image (45).png>)
+
+![](<../../../.gitbook/assets/image (85).png>)
+
+### Scaling event log analysis
+
+* Step 1: Collect event logs
+  * SIEM, Splunk, **GrayLog (popular),** etc
+  * Event forwarding
+* Step 2: Build triggers (examples)
+  * Powershell Using "IEX"
+  * 4624 Type 10 to workstations
+  * Service acct interactive logons
+
 ## Finding Event Logs
 
 NT / Win2000 / XP / Server 2003
@@ -37,7 +57,7 @@ What is recorded?
 
 ### Logon Types
 
-![](<../../../.gitbook/assets/image (85).png>)
+![](<../../../.gitbook/assets/image (85) (1).png>)
 
 Event IDs 528 and 540 signify a successful logon, event ID 538 a logoff and all the other events in this category identify different reasons for a logon failure. However, just knowing about a successful or failed logon attempt doesn’t fill in the whole picture. Because of all the services Windows offers, there are many different ways you can logon to a computer such as interactively at the computer’s local keyboard and screen, over the network through a drive mapping or through terminal services (aka remote desktop) or through IIS. Thankfully, logon/logoff events specify the Logon Type code which reveals the type of logon that prompted the event.
 

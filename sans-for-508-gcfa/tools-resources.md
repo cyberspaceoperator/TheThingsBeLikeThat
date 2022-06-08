@@ -21,11 +21,27 @@
 Cool Forensics YouTube channel
 {% endembed %}
 
+{% embed url="https://github.com/gchq/CyberChef" %}
+cyberchef
+{% endembed %}
 
+{% embed url="https://github.com/R3MRUM/PSDecode" %}
 
 ## Event log analysis
 
 {% embed url="https://eventlogxp.com/" %}
+
+EventID.Net
+
+
+
+Ultimate Windows Security Log Encyclopedia
+
+{% embed url="https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/" %}
+
+Windows 10 Security Auditing and Monitoring Reference
+
+{% embed url="https://www.microsoft.com/en-us/download/details.aspx?id=52630" %}
 
 {% embed url="https://ericzimmerman.github.io/#!index.md" %}
 This is a suite of tools for more than just event log analysis

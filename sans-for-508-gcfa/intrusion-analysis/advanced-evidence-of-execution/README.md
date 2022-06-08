@@ -98,7 +98,7 @@ Shimcache does exhibit some interesting behavior: if the executable is modified 
 
 [https://web.archive.org/web/20190209113245/https://www.fireeye.com/content/dam/fireeye-www/services/freeware/shimcache-whitepaper.pdf](https://web.archive.org/web/20190209113245/https://www.fireeye.com/content/dam/fireeye-www/services/freeware/shimcache-whitepaper.pdf)
 
-![](<../../../.gitbook/assets/image (44).png>)
+![](<../../../.gitbook/assets/image (44) (1).png>)
 
 #### **AppCompatCache** - used to track application execution including name, full path, and last mod time.&#x20;
 
@@ -149,9 +149,9 @@ Examples: AppCompatCacheParser.exe --csv c:\temp -t -c 2
 * InventoryApplicationFile key
   * Contains subkeys named per application, providing easy means to ident executables of interest
 
-![](<../../../.gitbook/assets/image (45).png>)
+![](<../../../.gitbook/assets/image (45) (1).png>)
 
-![](<../../../.gitbook/assets/image (26).png>)
+![](<../../../.gitbook/assets/image (26) (1).png>)
 
 #### Amcacheparser.exe
 
@@ -162,9 +162,9 @@ Examples: AppCompatCacheParser.exe --csv c:\temp -t -c 2
 
 {% embed url="https://ericzimmerman.github.io/#!index.md" %}
 
-![](<../../../.gitbook/assets/image (58).png>)
+![](<../../../.gitbook/assets/image (58) (1).png>)
 
-![amcacheparser.exe output](<../../../.gitbook/assets/image (43).png>)
+![amcacheparser.exe output](<../../../.gitbook/assets/image (43) (1).png>)
 
 ## Automating Application Execution Analysis
 
