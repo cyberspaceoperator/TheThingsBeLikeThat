@@ -60,7 +60,7 @@ PMK = PBKDF2(Passphrase, SSID, 4096)
 
 
 
-![WPA2 PTK Derivation](<../../.gitbook/assets/image (91).png>)
+![WPA2 PTK Derivation](<../../.gitbook/assets/image (91) (1).png>)
 
 ### WPA3
 

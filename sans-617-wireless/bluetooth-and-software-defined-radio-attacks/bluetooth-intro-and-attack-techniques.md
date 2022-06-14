@@ -56,7 +56,7 @@ Bluetooth evolution: Classic -> AMP -> Low Energy
 
 #### LMP (Link Management Procol)
 
-![](<../../.gitbook/assets/image (90) (1).png>)
+![](<../../.gitbook/assets/image (90) (1) (1).png>)
 
 ### Joining a piconet
 

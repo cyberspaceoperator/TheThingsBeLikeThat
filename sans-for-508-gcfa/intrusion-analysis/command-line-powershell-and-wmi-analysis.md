@@ -73,7 +73,7 @@ System event log
 
 &#x20;
 
-![](<../../.gitbook/assets/image (34).png>)
+![](<../../.gitbook/assets/image (34) (1).png>)
 
 ### Powershell Cheatsheet
 

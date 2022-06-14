@@ -38,7 +38,7 @@ Driver Signing
 
 ## Powershell
 
-![](<../.gitbook/assets/image (90).png>)
+![](<../.gitbook/assets/image (90) (1).png>)
 
 ![](<../.gitbook/assets/image (58).png>)
 
