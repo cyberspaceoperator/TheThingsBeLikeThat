@@ -179,7 +179,7 @@
   * [Lateral Movement Adversary Tactics](sans-for-508-gcfa/intrusion-analysis/lateral-movement-adversary-tactics/README.md)
     * [Exercise 2.3 - Tracking Lateral Movement](sans-for-508-gcfa/intrusion-analysis/lateral-movement-adversary-tactics/exercise-2.3-tracking-lateral-movement.md)
   * [Command Line, PowerShell, and WMI Analysis](sans-for-508-gcfa/intrusion-analysis/command-line-powershell-and-wmi-analysis.md)
-* [Memory Forensics in Incident Response and Threat Hunting](sans-for-508-gcfa/memory-forensics-in-incident-response-and-threat-hunting/README.md)
+* [Memory Forensics in Incident Response and Threat Hunting](sans-for-508-gcfa/memory-forensics-in-incident-response-and-threat-hunting.md)
   * [Enterprise & Remote System Analysis](sans-for-508-gcfa/memory-forensics-in-incident-response-and-threat-hunting/enterprise-and-remote-system-analysis.md)
   * [EDR Overview](sans-for-508-gcfa/memory-forensics-in-incident-response-and-threat-hunting/edr-overview.md)
   * [Memory Forensics](sans-for-508-gcfa/memory-forensics-in-incident-response-and-threat-hunting/memory-forensics.md)
