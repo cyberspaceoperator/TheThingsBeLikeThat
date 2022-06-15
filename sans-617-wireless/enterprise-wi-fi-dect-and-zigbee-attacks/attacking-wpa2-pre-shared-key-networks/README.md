@@ -113,7 +113,7 @@ airdecap-ng -p <pre-shared key> -e <SSID> <packetdump>.dump
 
 * r00kie-kr00kie.py - Automated Kr00k attack or examination of pcap files to see if we ever captured the necessary material for a Kr00k attack.
 
-![](<../../../.gitbook/assets/image (49) (1).png>)
+![](<../../../.gitbook/assets/image (49) (1) (1).png>)
 
 ![](<../../../.gitbook/assets/image (74) (1).png>)
 

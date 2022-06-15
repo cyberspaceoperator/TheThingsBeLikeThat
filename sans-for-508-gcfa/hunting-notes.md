@@ -2,7 +2,7 @@
 
 ## DLL Hijacking
 
-![](<../.gitbook/assets/image (48).png>)
+![](<../.gitbook/assets/image (48) (1).png>)
 
 ## WMI Persistence
 
@@ -16,7 +16,7 @@
 
 ### Amcache.hve
 
-![](<../.gitbook/assets/image (49).png>)
+![](<../.gitbook/assets/image (49) (1).png>)
 
 Driver Signing
 

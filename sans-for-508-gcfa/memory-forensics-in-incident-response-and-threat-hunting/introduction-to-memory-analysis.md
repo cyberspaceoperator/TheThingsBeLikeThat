@@ -82,11 +82,13 @@ Know normal to find evil
 
 ![](<../../.gitbook/assets/image (46).png>)
 
-#### WMI and Powershell Processes
+### Suspicious WMI Processes
 
-#### Suspicious WMI Processes
+* Wmi event consumers can be used for persistence and code execution
+  * 2 most common abused
+    * **CommandLine** and **ActiveScript**
 
-
+![](<../../.gitbook/assets/image (48).png>)
 
 ### 2. Analyze process DLLs and handles
 
@@ -97,3 +99,13 @@ Know normal to find evil
 ### 5. Check for signs of a rootkit
 
 ### 6. Dump suspicious processes and drivers
+
+### Automating Analysis
+
+#### Baseline (volatility plugin)
+
+{% embed url="https://github.com/csababarta/volatility_plugins/blob/master/baseline.py" %}
+baseline.py
+{% endembed %}
+
+![](<../../.gitbook/assets/image (49).png>)
