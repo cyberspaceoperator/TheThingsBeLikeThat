@@ -164,7 +164,7 @@ Examples: AppCompatCacheParser.exe --csv c:\temp -t -c 2
 
 {% embed url="https://ericzimmerman.github.io/#!index.md" %}
 
-![](<../../../.gitbook/assets/image (58) (1).png>)
+![](<../../../.gitbook/assets/image (58) (1) (1).png>)
 
 ![amcacheparser.exe output](<../../../.gitbook/assets/image (43) (1).png>)
 

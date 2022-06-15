@@ -13,7 +13,7 @@ Remote Access Agent vs Remote Analysis Agent\
 
 * Free triage collection and post-processing application. Designed to work with crowd-sourced 'target' files, which identify specific artifacts to be collected in a triage image.
 
-![](<../../.gitbook/assets/image (51).png>)
+![](<../../.gitbook/assets/image (51) (1).png>)
 
 {% embed url="https://www.youtube.com/watch?ab_channel=SANSDigitalForensicsandIncidentResponse&v=YF-jDoh8BFM" %}
 enable kape at scale

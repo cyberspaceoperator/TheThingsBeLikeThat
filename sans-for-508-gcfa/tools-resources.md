@@ -27,6 +27,8 @@ cyberchef
 
 {% embed url="https://github.com/R3MRUM/PSDecode" %}
 
+{% embed url="https://www.echotrail.io/products/insights/" %}
+
 ## Event log analysis
 
 {% embed url="https://eventlogxp.com/" %}

@@ -6,7 +6,7 @@
 
 ## WMI Persistence
 
-![](<../.gitbook/assets/image (80).png>)
+![](<../.gitbook/assets/image (80) (1).png>)
 
 ## Application Compatibility
 
@@ -40,8 +40,14 @@ Driver Signing
 
 ![](<../.gitbook/assets/image (90) (1).png>)
 
-![](<../.gitbook/assets/image (58).png>)
+![](<../.gitbook/assets/image (58) (1).png>)
 
 ![powershell cheatsheet for intrusion analysis](<../.gitbook/assets/image (52).png>)
 
 ![](<../.gitbook/assets/image (41).png>)
+
+## Memory Analysis
+
+### Processes
+
+![](<../.gitbook/assets/image (51).png>)

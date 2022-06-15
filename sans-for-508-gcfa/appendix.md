@@ -28,7 +28,7 @@
 
 #### amcacheparser.exe
 
-![amcacheparser.exe usage](<../.gitbook/assets/image (51) (1).png>)
+![amcacheparser.exe usage](<../.gitbook/assets/image (51) (1) (1).png>)
 
 ![amcacheparser.exe output](<../.gitbook/assets/image (25).png>)
 

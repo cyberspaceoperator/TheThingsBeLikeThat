@@ -55,7 +55,7 @@ Don't just start pulling shit off the network as a knee-jerk reaction, it WILL t
 
 ## &#x20;Real-Time Remediation
 
-![Traditional Incident Response Model](<../../.gitbook/assets/image (23).png>)
+![Traditional Incident Response Model](<../../.gitbook/assets/image (23) (1).png>)
 
 Once an organization works their way all the way up the pyramid, they should have the capability to remediate, respond, etc in real-time. Visibility of the entire network is crucial and takes a lot of time. Most organizations aren't all the way up the top of the pyramid acting at the same pace as attackers.
 

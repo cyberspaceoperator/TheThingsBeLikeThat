@@ -32,7 +32,7 @@ airgraph-ng -i <previously output file above> -g CPG -o <outputfile>
 
 ![](<../../../.gitbook/assets/image (61).png>)
 
-![](<../../../.gitbook/assets/image (58) (1) (1).png>)
+![](<../../../.gitbook/assets/image (58) (1) (1) (1).png>)
 
 ![](<../../../.gitbook/assets/image (34) (1) (1).png>)
 
