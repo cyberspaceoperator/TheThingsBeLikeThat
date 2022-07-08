@@ -12,7 +12,7 @@
 
 ### Shimcache
 
-![](<../.gitbook/assets/image (59) (1) (1).png>)
+![](<../.gitbook/assets/image (59) (1) (1) (1).png>)
 
 ### Amcache.hve
 
@@ -26,7 +26,7 @@ Driver Signing
 
 ![](<../.gitbook/assets/image (77).png>)
 
-![](<../.gitbook/assets/image (57).png>)
+![](<../.gitbook/assets/image (57) (1).png>)
 
 ### Process tracking and capturing command lines
 

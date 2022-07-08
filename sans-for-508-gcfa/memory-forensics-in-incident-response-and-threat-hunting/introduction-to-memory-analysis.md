@@ -68,7 +68,7 @@ Know normal to find evil
   * &#x20;_ **Start Time** - Was the process started at boot? Were any processes started near the time of the known attack?_
   * &#x20;_ **Security IDs**_&#x20;
 
-#### Plugins
+### Volatility Plugins
 
 #### PsList **(this only shows stuff that's running, normally)**
 
@@ -88,9 +88,25 @@ Know normal to find evil
   * 2 most common abused
     * **CommandLine** and **ActiveScript**
 
-![](<../../.gitbook/assets/image (48).png>)
+![CommandLineEventConsumer](<../../.gitbook/assets/image (57).png>)
 
-### 2. Analyze process DLLs and handles
+![ActiveScriptEventConsumer](<../../.gitbook/assets/image (48).png>)
+
+### 2. Analyze process objects / DLLs and handles
+
+| Object of Interest     | Definition / Use                                         | Volatility Plugin to Use                                                                                                                                                                                                                                                          |
+| ---------------------- | -------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| DLLS                   | Dynamic Linked Libraries                                 | vol.py -f \<image> dlllist -p \<process ID>                                                                                                                                                                                                                                       |
+| Handles                | Pointer to a resource (including named pipes)            | <p>vol.py -f &#x3C;image> handles -p &#x3C;PID><br><br>[-s] suppress unnamed handles<br><br>[-t type] show only handles of<br><br>Handle types:<br>Process, Thread, Key, Port, Files, Mutant, Token, Timer, IOCompletion, WindowStation, Directory, WmiGUID, Event, Semaphore</p> |
+|    Files               | Open Files or I/O devices                                |                                                                                                                                                                                                                                                                                   |
+|     Directories        | Lists of names used for aaccess to kernel objects        |                                                                                                                                                                                                                                                                                   |
+|     Registry           | Access to a key within the Windows Registry              |                                                                                                                                                                                                                                                                                   |
+|     Mutexes/Semaphores | Control/Limit access to an object                        |                                                                                                                                                                                                                                                                                   |
+|     Events             | Notifications that help threads communicate and organize |                                                                                                                                                                                                                                                                                   |
+| SIDs                   | Unique ID on Windows for each account/group              | vol.py -f \<image> getsids -p \<processID>                                                                                                                                                                                                                                        |
+| Threads                | Smallest unit of execution; the workhorse of a process   |                                                                                                                                                                                                                                                                                   |
+| Memory Sections        | Shared memory areas used by a process                    |                                                                                                                                                                                                                                                                                   |
+| Sockets                | Network port and connection information within a process |                                                                                                                                                                                                                                                                                   |
 
 ### 3. Review network artifacts
 

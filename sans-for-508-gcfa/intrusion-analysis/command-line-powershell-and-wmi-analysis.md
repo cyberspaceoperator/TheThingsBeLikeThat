@@ -57,7 +57,7 @@ System event log
 * EIDs
   * 5858 (**WMI-Activity/Operational log**) records query errors, including host and username
   * 5857-5861 (**WMI-Activity/Operational log**) record filter/consumer activity
-  * 5861 (**WMI-Activity/Operational log**): most useful: new permanent event consumer creation
+  * 5861 (**WMI-Activity/Operational log**): most useful: new permanent event consumer creation (uses **WMIPrvSE.exe** to execute)
 
 ![](<../../.gitbook/assets/image (43).png>)
 
@@ -81,7 +81,7 @@ System event log
 
 ### Powershell Obfuscation
 
-![](<../../.gitbook/assets/image (59).png>)
+![](<../../.gitbook/assets/image (59) (1).png>)
 
 ### Powershell Transcript Logs
 
@@ -110,4 +110,4 @@ System event log
 Try to utilize this for the final challenge
 {% endhint %}
 
-![](<../../.gitbook/assets/image (53).png>)
+![](<../../.gitbook/assets/image (53) (1).png>)

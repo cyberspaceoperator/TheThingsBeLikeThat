@@ -12,7 +12,7 @@
 
 #### mimikatz
 
-![mimikatz token stealing](<../.gitbook/assets/image (57) (1).png>)
+![mimikatz token stealing](<../.gitbook/assets/image (57) (1) (1).png>)
 
 #### Pass the ticket (mimikatz)
 
@@ -34,4 +34,8 @@
 
 appcompatprocessor.py
 
-![](<../.gitbook/assets/image (53) (1).png>)
+![](<../.gitbook/assets/image (53) (1) (1).png>)
+
+![volatility dlllist output](<../.gitbook/assets/image (76).png>)
+
+![SID overview chart](<../.gitbook/assets/image (53).png>)

@@ -14,7 +14,7 @@
 aircrack-ng -w <wordlist> <pcap filename>
 ```
 
-![](<../../../.gitbook/assets/image (59) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (59) (1) (1) (1) (1).png>)
 
 ![](<../../../.gitbook/assets/image (64).png>)
 
@@ -41,7 +41,7 @@ aircrack-ng -w <wordlist> <pcap filename>
 
 ### PMKID Attack
 
-![](<../../../.gitbook/assets/image (53) (1) (1).png>)
+![](<../../../.gitbook/assets/image (53) (1) (1) (1).png>)
 
 ![](<../../../.gitbook/assets/image (42) (1).png>)
 
