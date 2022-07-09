@@ -39,3 +39,5 @@ appcompatprocessor.py
 ![volatility dlllist output](<../.gitbook/assets/image (76).png>)
 
 ![SID overview chart](<../.gitbook/assets/image (53).png>)
+
+![netscan](<../.gitbook/assets/image (39).png>)

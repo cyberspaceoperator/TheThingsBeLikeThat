@@ -106,9 +106,36 @@ Know normal to find evil
 | SIDs                   | Unique ID on Windows for each account/group              | vol.py -f \<image> getsids -p \<processID>                                                                                                                                                                                                                                        |
 | Threads                | Smallest unit of execution; the workhorse of a process   |                                                                                                                                                                                                                                                                                   |
 | Memory Sections        | Shared memory areas used by a process                    |                                                                                                                                                                                                                                                                                   |
-| Sockets                | Network port and connection information within a process |                                                                                                                                                                                                                                                                                   |
+| Sockets                | Network port and connection information within a process | vol.py -f \<image> --profile=\<profile type> netscan                                                                                                                                                                                                                              |
 
 ### 3. Review network artifacts
+
+* Suspicious Ports
+  * Abnormal ports, backdoor ports
+* Suspicious Connections
+  * External connections, known bad IPs, TCP/UDP connections, creation times
+* Suspicious Processes
+  * Processes with open sockets that are unusual
+
+{% hint style="warning" %}
+Keep an eye out for:\
+
+
+1. Processes communicating over 80,443,8080 that aren't browsers
+2. Browsers not communicating over 80,443,8080
+3. Connections to internal/external IP addresses that are unexplained (connection to China? wtf?)
+4. Web requests directly to IP addresses rather than a domain name
+5. RDP (port 3389)
+6. DNS to weird domains
+7. Workstation to workstation connections\
+
+
+Might wanna think about baselining this traffic
+
+
+{% endhint %}
+
+Use **netscan** plugin to identify network sockets and TCP structures resident in memory
 
 ### 4. Look for evidence of code injection
 

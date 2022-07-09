@@ -110,7 +110,7 @@ Tools: mimikatz, WCE, kerberoast
 
 {% embed url="https://cert.europa.eu/static/WhitePapers/CERT-EU-SWP_14_07_PassTheGolden_Ticket_v1_1.pdf" %}
 
-![](<../../.gitbook/assets/image (39).png>)
+![](<../../.gitbook/assets/image (39) (1).png>)
 
 * Credential Guard (Win 10+)
   * Domain protected users group (Win 8+): Some attacks
