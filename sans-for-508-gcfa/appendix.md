@@ -30,7 +30,7 @@
 
 ![amcacheparser.exe usage](<../.gitbook/assets/image (51) (1) (1).png>)
 
-![amcacheparser.exe output](<../.gitbook/assets/image (25).png>)
+![amcacheparser.exe output](<../.gitbook/assets/image (25) (2).png>)
 
 appcompatprocessor.py
 
@@ -40,4 +40,4 @@ appcompatprocessor.py
 
 ![SID overview chart](<../.gitbook/assets/image (53).png>)
 
-![netscan](<../.gitbook/assets/image (39).png>)
+![netscan](<../.gitbook/assets/image (39) (2).png>)

@@ -7,7 +7,10 @@
 2. <mark style="color:blue;">**Parse Memory Structures**</mark>
    1. Executive Process (EPROCESS) blocks
    2. Process Environment (PEB) blocks
-      1. DLLs loaded
+      1. List of DLLs loaded (3 lists)
+         1. In order of Load
+         2. In order of Initialized
+         3. In order of Memory
    3. Virtual Address Descriptors (VAD) Tree
       1. List of memory sections belonging to the process
    4. Kernel Modules/drivers
