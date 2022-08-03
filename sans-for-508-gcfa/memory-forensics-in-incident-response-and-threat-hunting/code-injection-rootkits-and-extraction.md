@@ -39,6 +39,17 @@
 * Memory section not backed with a file on disk
 * Memory section contains code (PE File or shellcode)
 
+### Malfind Countermeasures:
+
+* Advanced adversaries can attack tools and process
+* Malfind only shows a "preview" of the first 64 bytes, advanced adversaries do things like:
+  * Overwrite the first 4 bytes (MZ header)
+  * Clear entire PE header (or first 4096 bytes)
+  * Jump or redirect to code placed later in the page
+* \--dump-dir option outputs entire contents
+  * Strings, scan with YARA sigs, antivirus scan
+  * Have a reverse engineer validate the code
+
 ## Volatility Code Injection Plugins
 
 ![volatility code injection plugins](<../../.gitbook/assets/image (39).png>)
@@ -66,5 +77,75 @@ Queries each list and displays results for comparison
 
 ### hollowfind
 
+* Detects process hollowing
+
 ### threadmap
+
+* Detects process hollowing
+
+## Hooking and Rootkit Detection
+
+![](<../../.gitbook/assets/image (25).png>)
+
+### Rootkit Hooking
+
+### Volatility Rootkit Detection & Plugins
+
+![](<../../.gitbook/assets/image (86).png>)
+
+### Plugin: SSDT (System Service Descriptor Table)
+
+Displays hooked functions within System Service Descriptor table (Windows Kernel Hooking)
+
+SSDT holds pointers to the various kernel functions that power WIndows
+
+The plugin will list all entries with the following information:
+
+* Table Entry
+* Function Offset
+* Function
+* Function Owner (the module that the SSDT entry is sending the request to)
+
+{% hint style="warning" %}
+Ignore entries related to ntoskrnl.exe and win32k.sys because they own the majority of legit functions that the SSDT table tracks
+{% endhint %}
+
+```
+vol.py -f <image name> --profile=<profile> ssdt | egrep -v '(ntos|win32k)'
+```
+
+Example of real SSDT results
+
+![](<../../.gitbook/assets/image (34).png>)
+
+{% embed url="https://www.welivesecurity.com/wp-content/uploads/200x/white-papers/Passing_Storm.pdf" %}
+
+### Direct Kernel Object Manipulation
+
+* Advanced process hiding technique
+  * Unlink and EPROCESS from the doubly linked list
+  * Makes changed to kernel objects directly within memory
+  * Changes aren't written to disk
+  * <mark style="color:orange;">You will not find process with</mark> <mark style="color:orange;"></mark><mark style="color:orange;">**pslist**</mark> <mark style="color:orange;"></mark><mark style="color:orange;">when using psxview</mark>
+
+### Plugin: psxview
+
+* Performs a cross-view analysis using seven different process listing plugins to visually identify hidden processes
+* Limit false positives by using "known good rules" (-R)
+
+### Plugin: modscan
+
+* Identify suspicious drivers in memory image
+
+{% hint style="info" %}
+**Compare to known-good (using volatility '**<mark style="color:blue;">**baseline**</mark>**' plugin to create the baseline on your own, and then use 'driverbl' plugin or Google drivers you don't recognize**
+{% endhint %}
+
+![driverbl plugin](<../../.gitbook/assets/image (32).png>)
+
+### Plugin: apihooks
+
+* Detect inline and Import Address Table function hooks used by rootkits to modify and control information found
+
+![apihooks](<../../.gitbook/assets/image (23).png>)
 

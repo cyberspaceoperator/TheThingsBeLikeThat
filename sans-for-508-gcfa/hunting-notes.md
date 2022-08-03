@@ -54,4 +54,6 @@ Driver Signing
 
 ![ldrmodules](<../.gitbook/assets/image (33).png>)
 
-![malfind](<../.gitbook/assets/image (25).png>)
+![malfind](<../.gitbook/assets/image (25) (3).png>)
+
+![](<../.gitbook/assets/image (26).png>)

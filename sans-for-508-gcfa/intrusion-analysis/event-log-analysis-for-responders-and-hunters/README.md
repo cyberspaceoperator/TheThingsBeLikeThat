@@ -2,7 +2,7 @@
 
 ## <mark style="color:orange;">Event Log Summary</mark>
 
-![](<../../../.gitbook/assets/image (26).png>)
+![](<../../../.gitbook/assets/image (26) (2).png>)
 
 ### How to collect logs
 

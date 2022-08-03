@@ -2,7 +2,7 @@
 
 Biggest issue with forensics is getting the data. Used to have to be shipped to you sometimes.
 
-![rapid-response tools](<../../.gitbook/assets/image (34).png>)
+![rapid-response tools](<../../.gitbook/assets/image (34) (2).png>)
 
 Remote Access Agent vs Remote Analysis Agent\
 

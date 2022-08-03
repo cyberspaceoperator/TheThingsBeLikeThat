@@ -24,7 +24,7 @@
 
 #### AppCompatCacheParser
 
-![appcompatcacheparser screenshot](<../.gitbook/assets/image (86).png>)
+![appcompatcacheparser screenshot](<../.gitbook/assets/image (86) (2).png>)
 
 #### amcacheparser.exe
 
