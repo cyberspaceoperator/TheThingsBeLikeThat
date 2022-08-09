@@ -142,9 +142,21 @@ Use **netscan** plugin to identify network sockets and TCP structures resident i
 
 ### 4. Look for evidence of code injection
 
+{% content-ref url="code-injection-rootkits-and-extraction.md" %}
+[code-injection-rootkits-and-extraction.md](code-injection-rootkits-and-extraction.md)
+{% endcontent-ref %}
+
 ### 5. Check for signs of a rootkit
 
+{% content-ref url="code-injection-rootkits-and-extraction.md" %}
+[code-injection-rootkits-and-extraction.md](code-injection-rootkits-and-extraction.md)
+{% endcontent-ref %}
+
 ### 6. Dump suspicious processes and drivers
+
+{% content-ref url="code-injection-rootkits-and-extraction.md" %}
+[code-injection-rootkits-and-extraction.md](code-injection-rootkits-and-extraction.md)
+{% endcontent-ref %}
 
 ### Automating Analysis
 
