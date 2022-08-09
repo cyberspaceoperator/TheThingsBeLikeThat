@@ -21,6 +21,7 @@
    4. Known heuristics and signatures
 4. <mark style="color:blue;">**Scan for Outliers**</mark>
 5. <mark style="color:blue;">**Analysis: Search for Anomalies**</mark>
+6. <mark style="color:blue;">**Dump Suspicious Processes**</mark>
 
 ![](<../../.gitbook/assets/image (75).png>)
 
