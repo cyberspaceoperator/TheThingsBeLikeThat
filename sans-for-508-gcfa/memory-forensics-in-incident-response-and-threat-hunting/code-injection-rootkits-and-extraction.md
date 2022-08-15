@@ -228,3 +228,13 @@ Often used in combination with filescan
 ![dumpfiles](<../../.gitbook/assets/image (24).png>)
 
 ### Plugin: filescan
+
+![filescan](<../../.gitbook/assets/image (1).png>)
+
+### Plugin: shimcachemem
+
+![shimcachemem](<../../.gitbook/assets/image (2).png>)
+
+## Review
+
+![](<../../.gitbook/assets/image (3).png>)

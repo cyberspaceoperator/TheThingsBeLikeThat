@@ -17,7 +17,7 @@ Always up to date Bloodhound / Sharphound files
 If you find yourself in a situation where you have compromised an Active Directory host as a domain user and can upload files to that computer some way, consider trying to run SharpHound.exe on the computer.\
 Run Sharphound.exe first, which will then be imported into BloodHound on your Kali Host.
 
-![Running Sharphound.exe](<../../.gitbook/assets/image (5).png>)
+![Running Sharphound.exe](<../../.gitbook/assets/image (5) (1).png>)
 
 From there we start neo4j database ($ neo4j start) and then run bloodhound
 

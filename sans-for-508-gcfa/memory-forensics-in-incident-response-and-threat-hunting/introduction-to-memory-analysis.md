@@ -1,5 +1,7 @@
 # Introduction to Memory Analysis
 
+![](../../.gitbook/assets/image.png)
+
 ## Windows Memory Analysis
 
 1. <mark style="color:blue;">**Identify Context**</mark>
