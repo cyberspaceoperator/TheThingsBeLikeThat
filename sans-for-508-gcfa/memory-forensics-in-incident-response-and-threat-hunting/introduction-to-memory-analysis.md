@@ -76,7 +76,7 @@ Know normal to find evil
 
 #### PsList **(this only shows stuff that's running, normally)**
 
-![](<../../.gitbook/assets/image (80).png>)
+![](<../../.gitbook/assets/image (80) (2).png>)
 
 #### PsScan (carves unallocated parts of memory, which can show exited processes)
 
@@ -94,7 +94,7 @@ Know normal to find evil
 
 ![CommandLineEventConsumer](<../../.gitbook/assets/image (57).png>)
 
-![ActiveScriptEventConsumer](<../../.gitbook/assets/image (48).png>)
+![ActiveScriptEventConsumer](<../../.gitbook/assets/image (48) (2).png>)
 
 ### 2. Analyze process objects / DLLs and handles
 
@@ -160,6 +160,8 @@ Use **netscan** plugin to identify network sockets and TCP structures resident i
 {% content-ref url="code-injection-rootkits-and-extraction.md" %}
 [code-injection-rootkits-and-extraction.md](code-injection-rootkits-and-extraction.md)
 {% endcontent-ref %}
+
+
 
 ### Automating Analysis
 

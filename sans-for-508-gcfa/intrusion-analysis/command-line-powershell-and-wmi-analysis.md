@@ -15,7 +15,7 @@ System event log
 * 4688 (Security log): New process created (includes executable path)
 * 4689 (Security log): Process exit
 
-![](<../../.gitbook/assets/image (24).png>)
+![](<../../.gitbook/assets/image (24) (2).png>)
 
 ## WMI Attacks
 
@@ -73,11 +73,11 @@ System event log
 
 &#x20;
 
-![](<../../.gitbook/assets/image (34) (1).png>)
+![](<../../.gitbook/assets/image (34) (1) (2).png>)
 
 ### Powershell Cheatsheet
 
-![](<../../.gitbook/assets/image (40).png>)
+![](<../../.gitbook/assets/image (40) (2).png>)
 
 ### Powershell Obfuscation
 

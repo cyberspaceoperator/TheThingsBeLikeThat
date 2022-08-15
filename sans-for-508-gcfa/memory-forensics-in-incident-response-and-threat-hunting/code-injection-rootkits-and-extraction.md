@@ -85,7 +85,7 @@ Queries each list and displays results for comparison
 
 ## Hooking and Rootkit Detection
 
-![](<../../.gitbook/assets/image (25).png>)
+![](<../../.gitbook/assets/image (25) (4).png>)
 
 ### Rootkit Hooking
 
@@ -116,7 +116,7 @@ vol.py -f <image name> --profile=<profile> ssdt | egrep -v '(ntos|win32k)'
 
 Example of real SSDT results
 
-![](<../../.gitbook/assets/image (34).png>)
+![](<../../.gitbook/assets/image (34) (1).png>)
 
 {% embed url="https://www.welivesecurity.com/wp-content/uploads/200x/white-papers/Passing_Storm.pdf" %}
 
@@ -141,11 +141,90 @@ Example of real SSDT results
 **Compare to known-good (using volatility '**<mark style="color:blue;">**baseline**</mark>**' plugin to create the baseline on your own, and then use 'driverbl' plugin or Google drivers you don't recognize**
 {% endhint %}
 
-![driverbl plugin](<../../.gitbook/assets/image (32).png>)
+![driverbl plugin](<../../.gitbook/assets/image (32) (3).png>)
 
 ### Plugin: apihooks
 
 * Detect inline and Import Address Table function hooks used by rootkits to modify and control information found
 
-![apihooks](<../../.gitbook/assets/image (23).png>)
+![apihooks](<../../.gitbook/assets/image (23) (3).png>)
 
+## Extracting Processes, Drivers, and Objects in Volatility
+
+### Plugin: dlldump
+
+By default, dumps all DLLs in memory image
+
+Try to limit the amount of DLLs to specific processes like with '-p' or '-r' options
+
+![dlldump](<../../.gitbook/assets/image (93).png>)
+
+### Plugin: moddump
+
+Once you've identified **potentially malicious drivers** within a memory image, the next step is to extract them from the image for further review/analysis
+
+![moddump](<../../.gitbook/assets/image (38).png>)
+
+![moddump example](<../../.gitbook/assets/image (51).png>)
+
+### Plugin: procdump
+
+![procdump](<../../.gitbook/assets/image (48).png>)
+
+### Plugin: memdump
+
+![memdump](<../../.gitbook/assets/image (80).png>)
+
+![strings usage](<../../.gitbook/assets/image (94).png>)
+
+![grep usage](<../../.gitbook/assets/image (40).png>)
+
+#### String Searching with memdump
+
+```
+vol.py -f <image> memdump -n conhost --dump-dir=.
+**********
+Writing conhost.exe [xxxx] to xxxx.dmp
+**********
+# strings -t d -e l *.dmp >> conhost.uni
+# grep -i "command prompt" conhost.uni
+```
+
+{% hint style="info" %}
+volatility also has it's own strings plugin\
+[https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#strings](https://github.com/volatilityfoundation/volatility/wiki/Command-Reference#strings)
+{% endhint %}
+
+{% hint style="warning" %}
+Before doing string searching, run 'winmem\_decompress.py' or 'win10memcompression.py' first to decompress the memory dumps. This is because windows compresses certain sections of memory and you might not get everything if searching through a compressed memory dump
+{% endhint %}
+
+{% embed url="https://www.itprotoday.com/windows-10/understand-windows-10-memory-compression" %}
+Understanding windows 10 memory compression
+{% endembed %}
+
+{% embed url="https://www.mandiant.com/resources/finding-evil-in-windows-ten-compressed-memory-part-one" %}
+
+### Plugin: cmdscan
+
+![cmdscan](<../../.gitbook/assets/image (34).png>)
+
+### Plugin: consoles
+
+You see what the user typed in terminal AND what the output was of that command
+
+![consoles/cmdscan difference](<../../.gitbook/assets/image (23).png>)
+
+## Extracting files
+
+### Plugin: dumpfiles
+
+{% hint style="info" %}
+Often used in combination with filescan
+{% endhint %}
+
+![](<../../.gitbook/assets/image (26).png>)
+
+![dumpfiles](<../../.gitbook/assets/image (24).png>)
+
+### Plugin: filescan
