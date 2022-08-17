@@ -186,7 +186,7 @@
   * [Acquiring Memory](sans-for-508-gcfa/memory-forensics-in-incident-response-and-threat-hunting/acquiring-memory.md)
   * [Introduction to Memory Analysis](sans-for-508-gcfa/memory-forensics-in-incident-response-and-threat-hunting/introduction-to-memory-analysis.md)
   * [Code Injection, Rootkits, and Extraction](sans-for-508-gcfa/memory-forensics-in-incident-response-and-threat-hunting/code-injection-rootkits-and-extraction.md)
-* [Timeline Analysis](sans-for-508-gcfa/timeline-analysis/README.md)
+* [Timeline Analysis](sans-for-508-gcfa/timeline-analysis.md)
   * [Malware Discovery](sans-for-508-gcfa/timeline-analysis/malware-discovery.md)
   * [Timeline Analysis Overview](sans-for-508-gcfa/timeline-analysis/timeline-analysis-overview.md)
   * [Filesystem Timeline Creation and Analysis](sans-for-508-gcfa/timeline-analysis/filesystem-timeline-creation-and-analysis.md)
