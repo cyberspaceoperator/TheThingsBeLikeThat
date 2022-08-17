@@ -2,7 +2,7 @@
 
 
 
-![](<../../.gitbook/assets/image (27).png>)
+![](<../../.gitbook/assets/image (27) (2).png>)
 
 ### Hibernation file analysis
 

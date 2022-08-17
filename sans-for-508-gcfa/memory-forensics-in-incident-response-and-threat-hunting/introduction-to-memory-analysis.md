@@ -1,6 +1,6 @@
 # Introduction to Memory Analysis
 
-![](../../.gitbook/assets/image.png)
+![](<../../.gitbook/assets/image (27).png>)
 
 ## Windows Memory Analysis
 

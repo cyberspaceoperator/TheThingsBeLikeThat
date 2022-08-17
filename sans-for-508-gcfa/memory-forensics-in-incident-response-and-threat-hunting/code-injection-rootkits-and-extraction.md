@@ -213,7 +213,7 @@ Understanding windows 10 memory compression
 
 You see what the user typed in terminal AND what the output was of that command
 
-![consoles/cmdscan difference](<../../.gitbook/assets/image (23).png>)
+![consoles/cmdscan difference](<../../.gitbook/assets/image (23) (4).png>)
 
 ## Extracting files
 
@@ -233,8 +233,8 @@ Often used in combination with filescan
 
 ### Plugin: shimcachemem
 
-![shimcachemem](<../../.gitbook/assets/image (2).png>)
+![shimcachemem](<../../.gitbook/assets/image (2) (2).png>)
 
 ## Review
 
-![](<../../.gitbook/assets/image (3).png>)
+![](<../../.gitbook/assets/image (3) (2).png>)
