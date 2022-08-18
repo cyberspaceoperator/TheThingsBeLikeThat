@@ -229,7 +229,7 @@ Often used in combination with filescan
 
 ### Plugin: filescan
 
-![filescan](<../../.gitbook/assets/image (1).png>)
+![filescan](<../../.gitbook/assets/image (1) (1).png>)
 
 ### Plugin: shimcachemem
 

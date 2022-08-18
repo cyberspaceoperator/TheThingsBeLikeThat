@@ -25,7 +25,7 @@ From there we start neo4j database ($ neo4j start) and then run bloodhound
 **`To get the database populated, you must drag and drop the .zip file into Bloodhound, I found it will not accept separated .json files. It must be the entire zip.`**
 {% endhint %}
 
-![](<../../.gitbook/assets/image (6).png>)
+![](<../../.gitbook/assets/image (6) (1).png>)
 
 You can see that that in this example Administrator is a member of the Domain Admins group, not really a surprise. So given that we have access to a normal user, we would need to query the user.
 
