@@ -31,4 +31,4 @@ You can see that that in this example Administrator is a member of the Domain Ad
 
 After querying th user we see no path to the Domain Admins group, so either we are missing something or (more likely) we need to get access to another user.
 
-![](<../../.gitbook/assets/image (7).png>)
+![](<../../.gitbook/assets/image (7) (1).png>)

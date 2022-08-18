@@ -5,7 +5,7 @@
 * Windows Artifacts
 * Registry Keys
 
-![windows artifacts](<../../.gitbook/assets/image (2).png>)
+![windows artifacts](<../../.gitbook/assets/image (8).png>)
 
 Where do I begin to look?
 
@@ -15,7 +15,7 @@ Where do I begin to look?
   * What occurred right before and right after that pivot point?
 * How do you determine the pivot point?
 
-![pivot point](<../../.gitbook/assets/image (1).png>)
+![pivot point](<../../.gitbook/assets/image (7).png>)
 
 2 types of timelines covered in FOR-508
 

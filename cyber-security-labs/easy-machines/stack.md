@@ -6,7 +6,7 @@ description: Stack employs GitStack 2.3.10 for User access
 
 Initial scan indicates that port 80 (among other ports) are open
 
-![](<../../.gitbook/assets/image (2) (1) (1).png>)
+![](<../../.gitbook/assets/image (2) (1).png>)
 
 In the next services (like 445) I also ran smbmap -H \<ip> but it did not return anything. It's important to make sure your smb.conf file has the correct configuration to allow for SMBv2, otherwise it will not be allowed if the host you're trying to connect to uses a newer version.
 
