@@ -29,7 +29,7 @@ filetime / minwinbase
 When doing a timeline, stay in UTC for everything
 {% endhint %}
 
-![Windows Time Rules](<../../.gitbook/assets/image (10).png>)
+![Windows Time Rules](<../../.gitbook/assets/image (10) (2).png>)
 
 {% hint style="danger" %}
 Modified timestamp before creation time!? That's because the file was probably copied from somewhere else, this can be an IOC, something interesting

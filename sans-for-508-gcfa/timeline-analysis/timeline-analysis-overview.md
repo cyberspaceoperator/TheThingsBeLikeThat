@@ -15,7 +15,7 @@ Where do I begin to look?
   * What occurred right before and right after that pivot point?
 * How do you determine the pivot point?
 
-![pivot point](<../../.gitbook/assets/image (7).png>)
+![pivot point](<../../.gitbook/assets/image (7) (2).png>)
 
 2 types of timelines covered in FOR-508
 
