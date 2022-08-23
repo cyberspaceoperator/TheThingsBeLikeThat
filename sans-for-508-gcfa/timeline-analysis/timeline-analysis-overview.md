@@ -47,3 +47,5 @@ Where do I begin to look?
 5. Analyze timelime
    * Focus on the context of the evidence
    * Use Windows Forensics "Evidence Of..." poster
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
