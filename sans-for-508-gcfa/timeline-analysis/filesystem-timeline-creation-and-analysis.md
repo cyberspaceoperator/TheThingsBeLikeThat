@@ -45,7 +45,7 @@ To interpret a timeline you must understand the columns:
 
 * Time: All entries with the same time are grouped
 * <mark style="color:green;">!!! macb: Indication of timestamp type</mark> <mark style="color:red;">(important) !!!</mark>
-  * ![](<../../.gitbook/assets/image (6).png>)
+  * ![](<../../.gitbook/assets/image (6) (2).png>)
 * File Size
 * Permissions (Unix only)
 * User and Group (Unix only)

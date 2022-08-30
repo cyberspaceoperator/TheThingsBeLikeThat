@@ -41,3 +41,5 @@ appcompatprocessor.py
 ![SID overview chart](<../.gitbook/assets/image (53).png>)
 
 ![netscan](<../.gitbook/assets/image (39) (2).png>)
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>libvshadow</p></figcaption></figure>
