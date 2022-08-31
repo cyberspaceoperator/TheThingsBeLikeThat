@@ -29,6 +29,10 @@ filetime / minwinbase
 When doing a timeline, stay in UTC for everything
 {% endhint %}
 
+{% hint style="danger" %}
+Time rules for $STANDARD\_INFORMATION is different that __ $FILE\_NAME
+{% endhint %}
+
 ![Windows Time Rules](<../../.gitbook/assets/image (10) (2).png>)
 
 {% hint style="danger" %}

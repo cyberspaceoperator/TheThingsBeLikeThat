@@ -7,3 +7,5 @@
 Prefetch - Operating system loads key pieces of data and code from disk into memory before it is needed. Windows 7 and before, limited to 127 files. Post Windows 8 = 1024 files
 
 Stacking - Least frequency of occurrence analysis
+
+Resident attribute - file stored in MFT record (<700bytes or so?) because its small enough to fit in the record, otherwise Windows would have to create a new block, a pointer, etc.&#x20;
