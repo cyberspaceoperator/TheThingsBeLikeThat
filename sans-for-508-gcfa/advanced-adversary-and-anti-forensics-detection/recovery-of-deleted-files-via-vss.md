@@ -31,5 +31,5 @@ llibvshadow
 
 #### vshadowmount
 
-<figure><img src="../../.gitbook/assets/image (98).png" alt=""><figcaption><p>vshadowmount</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (98) (1).png" alt=""><figcaption><p>vshadowmount</p></figcaption></figure>
 

@@ -42,4 +42,6 @@ appcompatprocessor.py
 
 ![netscan](<../.gitbook/assets/image (39) (2).png>)
 
-<figure><img src="../.gitbook/assets/image (1) (3).png" alt=""><figcaption><p>libvshadow</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (3) (2).png" alt=""><figcaption><p>libvshadow</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>istat / icat output</p></figcaption></figure>
