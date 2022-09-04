@@ -200,6 +200,7 @@
   * [Advanced NTFS Filesystem Tactics](sans-for-508-gcfa/advanced-adversary-and-anti-forensics-detection/advanced-ntfs-filesystem-tactics.md)
   * [Advanced Evidence Recovery](sans-for-508-gcfa/advanced-adversary-and-anti-forensics-detection/advanced-evidence-recovery.md)
   * [Defensive Countermeasures](sans-for-508-gcfa/advanced-adversary-and-anti-forensics-detection/defensive-countermeasures.md)
+* [Excercises](sans-for-508-gcfa/excercises.md)
 * [Tools / Resources](sans-for-508-gcfa/tools-resources.md)
 * [Hunting Notes](sans-for-508-gcfa/hunting-notes.md)
 * [Appendix](sans-for-508-gcfa/appendix.md)
