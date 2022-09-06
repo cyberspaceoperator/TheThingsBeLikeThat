@@ -59,7 +59,7 @@ System event log
   * 5857-5861 (**WMI-Activity/Operational log**) record filter/consumer activity
   * 5861 (**WMI-Activity/Operational log**): most useful: new permanent event consumer creation (uses **WMIPrvSE.exe** to execute)
 
-![](<../../.gitbook/assets/image (43) (2).png>)
+![](<../../.gitbook/assets/image (42).png>)
 
 ## PowerShell (best logging is on PSv5)
 
@@ -73,7 +73,7 @@ System event log
 
 &#x20;
 
-![](<../../.gitbook/assets/image (34) (1) (2).png>)
+![](<../../.gitbook/assets/image (58) (1).png>)
 
 ### Powershell Cheatsheet
 
@@ -81,7 +81,7 @@ System event log
 
 ### Powershell Obfuscation
 
-![](<../../.gitbook/assets/image (59) (1).png>)
+![](<../../.gitbook/assets/image (44).png>)
 
 ### Powershell Transcript Logs
 
@@ -98,9 +98,9 @@ System event log
   * Set-PSReadLineOption - HistorySaveStyle SaveNothing
   * Remove-Module -Name PsReadLine
 
-![event log cheatsheet / summary](<../../.gitbook/assets/image (33) (2).png>)
+![event log cheatsheet / summary](<../../.gitbook/assets/image (26) (2).png>)
 
-![Get-WinEvent and Powershell](<../../.gitbook/assets/image (56).png>)
+![Get-WinEvent and Powershell](<../../.gitbook/assets/image (85).png>)
 
 ### Sysmon logging
 

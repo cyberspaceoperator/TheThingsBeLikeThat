@@ -6,7 +6,7 @@
 
 ### log2timeline registry parsers
 
-![](<../../.gitbook/assets/image (97).png>)
+![](<../../.gitbook/assets/image (12).png>)
 
 ### Plaso Webhistory parsers
 

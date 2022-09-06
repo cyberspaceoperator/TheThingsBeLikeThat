@@ -151,7 +151,7 @@ Examples: AppCompatCacheParser.exe --csv c:\temp -t -c 2
 * InventoryApplicationFile key
   * Contains subkeys named per application, providing easy means to ident executables of interest
 
-![](<../../../.gitbook/assets/image (45) (1).png>)
+![](<../../../.gitbook/assets/image (38) (1).png>)
 
 ![](<../../../.gitbook/assets/image (26) (1).png>)
 
@@ -164,9 +164,9 @@ Examples: AppCompatCacheParser.exe --csv c:\temp -t -c 2
 
 {% embed url="https://ericzimmerman.github.io/#!index.md" %}
 
-![](<../../../.gitbook/assets/image (58) (1) (1).png>)
+![](<../../../.gitbook/assets/image (51) (1) (1).png>)
 
-![amcacheparser.exe output](<../../../.gitbook/assets/image (43) (1).png>)
+![amcacheparser.exe output](<../../../.gitbook/assets/image (25) (2).png>)
 
 ## Automating Application Execution Analysis
 

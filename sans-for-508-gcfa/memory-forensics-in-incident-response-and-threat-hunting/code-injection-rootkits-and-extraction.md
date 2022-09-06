@@ -169,7 +169,7 @@ Once you've identified **potentially malicious drivers** within a memory image, 
 
 ### Plugin: procdump
 
-![procdump](<../../.gitbook/assets/image (48).png>)
+![procdump](<../../.gitbook/assets/image (25).png>)
 
 ### Plugin: memdump
 
@@ -237,4 +237,4 @@ Often used in combination with filescan
 
 ## Review
 
-![](<../../.gitbook/assets/image (3) (2).png>)
+![](<../../.gitbook/assets/image (4) (2).png>)

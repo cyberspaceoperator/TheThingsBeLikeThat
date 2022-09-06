@@ -18,7 +18,7 @@
 4. Audit RDP activity: 4778
 5. Audit Admin account activity: 4672 / Text in description \<possiblle compromised account>
 6. Filter for account abuse: 4672 / Text in description: "\<example SID from network that isn't from a built-in account>"
-7. <img src="../../../.gitbook/assets/image (66).png" alt="" data-size="original">
+7. <img src="../../../.gitbook/assets/image (32) (2) (1).png" alt="" data-size="original">
 8.
 
 ## Option 2: Tracking Credential use with EvtxECmd

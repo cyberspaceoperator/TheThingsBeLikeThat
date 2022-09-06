@@ -84,7 +84,7 @@ Once an organization works their way all the way up the pyramid, they should hav
 
 ![](<../../.gitbook/assets/image (54) (1).png>)
 
-![Page 57 Book 1](<../../.gitbook/assets/image (32) (1).png>)
+![Page 57 Book 1](<../../.gitbook/assets/image (41) (1).png>)
 
 ### Team Roles
 
@@ -102,4 +102,4 @@ Once an organization works their way all the way up the pyramid, they should hav
 2. Systems with Dormant Malware (Not active or cleaned)
 3. Systems without Tools of Malware (Living off the land)
 
-![The numbers are associated with the Compromise Type above](<../../.gitbook/assets/image (41) (1).png>)
+![The numbers are associated with the Compromise Type above](<../../.gitbook/assets/image (32) (1).png>)

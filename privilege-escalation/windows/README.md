@@ -110,7 +110,7 @@ On windows 10 (and possibly others), Autoruns may tend to run the command with t
 Windows can be configured to run commands at startup with elevated privs, these are configured in the registry. If we're able to write to an AutoRun exe, and able to restart or wait for restart, we might be able to escalate\
 
 
-![Autorun program found by winPEAS](<../../.gitbook/assets/image (10) (1).png>)
+![Autorun program found by winPEAS](<../../.gitbook/assets/image (9) (1).png>)
 
 Validate the above output with accesschk to make sure that the output is correct (this may not always be feasible, obviously)
 
@@ -150,7 +150,7 @@ msiexec /quiet /qn /i <path to reverse shell> (must use full path, not relative)
     * **reg query HKLM /f password /t REG\_SZ /s**
     * **reg query HKCU /f password /t REG\_SZ /s**
 
-![](<../../.gitbook/assets/image (14).png>)
+![](<../../.gitbook/assets/image (14) (1).png>)
 
 ### Saved Creds
 

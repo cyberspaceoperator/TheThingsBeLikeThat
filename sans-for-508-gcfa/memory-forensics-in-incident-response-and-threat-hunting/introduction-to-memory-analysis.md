@@ -1,6 +1,6 @@
 # Introduction to Memory Analysis
 
-![](<../../.gitbook/assets/image (27).png>)
+![](<../../.gitbook/assets/image (5) (2).png>)
 
 ## Windows Memory Analysis
 
@@ -86,7 +86,7 @@ Know normal to find evil
 
 #### PsTree
 
-![](<../../.gitbook/assets/image (46).png>)
+![](<../../.gitbook/assets/image (23) (2).png>)
 
 ### Suspicious WMI Processes
 
@@ -94,7 +94,7 @@ Know normal to find evil
   * 2 most common abused
     * **CommandLine** and **ActiveScript**
 
-![CommandLineEventConsumer](<../../.gitbook/assets/image (57).png>)
+![CommandLineEventConsumer](<../../.gitbook/assets/image (59).png>)
 
 ![ActiveScriptEventConsumer](<../../.gitbook/assets/image (48) (2).png>)
 

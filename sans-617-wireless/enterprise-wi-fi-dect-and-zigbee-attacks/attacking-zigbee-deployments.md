@@ -32,7 +32,7 @@
 * All zeroes address indicated coordinator
 * Address given to devices when they join the network by coordinator
 
-![](<../../.gitbook/assets/image (33) (1).png>)
+![](<../../.gitbook/assets/image (82).png>)
 
 ### CMM Protocol
 
@@ -68,4 +68,4 @@
   * send to instructor to flash
 * APIMote v4, available at Attify store & riverloop
 
-![](<../../.gitbook/assets/image (67).png>)
+![](<../../.gitbook/assets/image (87) (1).png>)

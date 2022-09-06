@@ -1,3 +1,7 @@
+---
+description: '!!! THIS PAGE NEEDS TO BE REORGANIZED !!!'
+---
+
 # Hunting Notes
 
 ## DLL Hijacking
@@ -12,7 +16,7 @@
 
 ### Shimcache
 
-![](<../.gitbook/assets/image (59) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (89).png>)
 
 ### Amcache.hve
 
@@ -34,17 +38,17 @@ Driver Signing
 
 ### WMI Cheat sheet for Intrusion analysis
 
-![](<../.gitbook/assets/image (42).png>)
+![](<../.gitbook/assets/image (43) (2).png>)
 
 ## Powershell
 
 ![](<../.gitbook/assets/image (90) (1).png>)
 
-![](<../.gitbook/assets/image (58) (1).png>)
+![](<../.gitbook/assets/image (34) (1) (2).png>)
 
-![powershell cheatsheet for intrusion analysis](<../.gitbook/assets/image (52).png>)
+![powershell cheatsheet for intrusion analysis](<../.gitbook/assets/image (74).png>)
 
-![](<../.gitbook/assets/image (41).png>)
+![](<../.gitbook/assets/image (26) (2) (1).png>)
 
 ## Memory Analysis
 
@@ -58,4 +62,8 @@ Driver Signing
 
 ![](<../.gitbook/assets/image (26) (3).png>)
 
-![](<../.gitbook/assets/image (4) (2).png>)
+![](<../.gitbook/assets/image (3) (2).png>)
+
+## Journaling searches
+
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>

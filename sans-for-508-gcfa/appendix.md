@@ -28,9 +28,9 @@
 
 #### amcacheparser.exe
 
-![amcacheparser.exe usage](<../.gitbook/assets/image (51) (1) (1).png>)
+![amcacheparser.exe usage](<../.gitbook/assets/image (58) (1) (1).png>)
 
-![amcacheparser.exe output](<../.gitbook/assets/image (25) (2).png>)
+![amcacheparser.exe output](<../.gitbook/assets/image (43) (1).png>)
 
 appcompatprocessor.py
 
@@ -42,6 +42,6 @@ appcompatprocessor.py
 
 ![netscan](<../.gitbook/assets/image (39) (2).png>)
 
-<figure><img src="../.gitbook/assets/image (1) (3) (2).png" alt=""><figcaption><p>libvshadow</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>libvshadow</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>istat / icat output</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>istat / icat output</p></figcaption></figure>

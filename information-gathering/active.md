@@ -35,7 +35,7 @@ $ fierce -dns google.com --wordlist
 $ fierce -h
 ```
 
-![Output of fierce](<../.gitbook/assets/image (15).png>)
+![Output of fierce](<../.gitbook/assets/image (15) (1).png>)
 
 ### Dig
 
@@ -66,7 +66,7 @@ $ host -l google.com
 
 DNSenum is a Perl script that can be used to enumerate the DNS information of a domain and to discover non-contiguous IP blocks. This tool will also attempt zone transfers on all the related domain name servers.
 
-![](<../.gitbook/assets/image (16).png>)
+![](<../.gitbook/assets/image (16) (1).png>)
 
 ### DNSRECON
 

@@ -2,13 +2,13 @@
 
 ## <mark style="color:orange;">Event Log Summary</mark>
 
-![](<../../../.gitbook/assets/image (26) (2).png>)
+![](<../../../.gitbook/assets/image (33) (2).png>)
 
 ### How to collect logs
 
 ![](<../../../.gitbook/assets/image (45).png>)
 
-![](<../../../.gitbook/assets/image (85).png>)
+![](<../../../.gitbook/assets/image (56).png>)
 
 ### Scaling event log analysis
 
@@ -108,7 +108,7 @@ When you access a computer through Terminal Services, Remote Desktop or Remote A
 * DWM AND UMFD
 * ANONYMOUS LOGON
 
-![](<../../../.gitbook/assets/image (87).png>)
+![](<../../../.gitbook/assets/image (72).png>)
 
 ![](<../../../.gitbook/assets/image (71).png>)
 

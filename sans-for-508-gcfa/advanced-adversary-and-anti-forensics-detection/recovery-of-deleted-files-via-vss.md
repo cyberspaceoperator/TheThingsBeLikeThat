@@ -27,7 +27,7 @@ llibvshadow
 
 #### vshadowinfo
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption><p>vshadowinfo</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (3) (2).png" alt=""><figcaption><p>vshadowinfo</p></figcaption></figure>
 
 #### vshadowmount
 
