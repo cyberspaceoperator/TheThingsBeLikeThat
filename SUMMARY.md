@@ -206,3 +206,12 @@
 * [Appendix](sans-for-508-gcfa/appendix.md)
 * [Glossary](sans-for-508-gcfa/glossary.md)
 * [Homework](sans-for-508-gcfa/homework.md)
+
+## SANS FOR-610 - GREM
+
+* [Malware Analysis Fundamentals](sans-for-610-grem/malware-analysis-fundamentals.md)
+* [Reversing Malicious Code](sans-for-610-grem/reversing-malicious-code.md)
+* [Analyzing Malicious Documents](sans-for-610-grem/analyzing-malicious-documents.md)
+* [In-Depth Malware Analysis](sans-for-610-grem/in-depth-malware-analysis.md)
+* [Examining Self-Defending Software](sans-for-610-grem/examining-self-defending-software.md)
+* [Malware Analysis Tournament (NETWARS)](sans-for-610-grem/malware-analysis-tournament-netwars.md)
