@@ -209,7 +209,13 @@
 
 ## SANS FOR-610 - GREM
 
-* [Malware Analysis Fundamentals](sans-for-610-grem/malware-analysis-fundamentals.md)
+* [Malware Analysis Fundamentals](sans-for-610-grem/malware-analysis-fundamentals/README.md)
+  * [Introduction to Malware Analysis](sans-for-610-grem/malware-analysis-fundamentals/introduction-to-malware-analysis.md)
+  * [Malware Analysis Lab](sans-for-610-grem/malware-analysis-fundamentals/malware-analysis-lab.md)
+  * [Static Properties Analysis](sans-for-610-grem/malware-analysis-fundamentals/static-properties-analysis.md)
+  * [Behavioral Analysis Essentials](sans-for-610-grem/malware-analysis-fundamentals/behavioral-analysis-essentials.md)
+  * [Code Analysis Essentials](sans-for-610-grem/malware-analysis-fundamentals/code-analysis-essentials.md)
+  * [Exploring Network Interactions](sans-for-610-grem/malware-analysis-fundamentals/exploring-network-interactions.md)
 * [Reversing Malicious Code](sans-for-610-grem/reversing-malicious-code.md)
 * [Analyzing Malicious Documents](sans-for-610-grem/analyzing-malicious-documents.md)
 * [In-Depth Malware Analysis](sans-for-610-grem/in-depth-malware-analysis.md)
