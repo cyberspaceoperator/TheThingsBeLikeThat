@@ -6,15 +6,15 @@
 
 libpcap - standard library, [https://www.tcpdump.org/](https://www.tcpdump.org/)
 
-**airmon-ng  -** [**https://www.aircrack-ng.org/doku.php?id=airmon-ng**](https://www.aircrack-ng.org/doku.php?id=airmon-ng)****
+**airmon-ng  -** [**https://www.aircrack-ng.org/doku.php?id=airmon-ng**](https://www.aircrack-ng.org/doku.php?id=airmon-ng)
 
 **tcpdump -** Text-based traffic capture an analysis. Limited analysis for 802.11. Useful for saving captures, [https://www.tcpdump.org/](https://www.tcpdump.org/)
 
 ![](<../../.gitbook/assets/image (89) (1).png>)![](<../../.gitbook/assets/image (71) (1).png>)
 
-**wireshark -** [**https://www.wireshark.org/**](https://www.wireshark.org/)**,** [**https://packetlife.net/media/library/13/Wireshark\_Display\_Filters.pdf**](https://packetlife.net/media/library/13/Wireshark\_Display\_Filters.pdf)****
+**wireshark -** [**https://www.wireshark.org/**](https://www.wireshark.org/)**,** [**https://packetlife.net/media/library/13/Wireshark\_Display\_Filters.pdf**](https://packetlife.net/media/library/13/Wireshark\_Display\_Filters.pdf)
 
-****![](<../../.gitbook/assets/image (38) (1) (1).png>)****
+![](<../../.gitbook/assets/image (38) (1) (1).png>)
 
 **kismet -** [**https://www.kismetwireless.net/**](https://www.kismetwireless.net/)
 

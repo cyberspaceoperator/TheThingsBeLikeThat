@@ -79,7 +79,7 @@ Detecting WPS
 
 * Wireshark filter: **wps.wifi**_**protected**_**setup\_state eq 0x02**
 
-Passive Attack Tool**:** [**reaver-wps-fork-t6x**](https://github.com/t6x/reaver-wps-fork-t6x)****
+Passive Attack Tool**:** [**reaver-wps-fork-t6x**](https://github.com/t6x/reaver-wps-fork-t6x)
 
 * Observes DH exchange data
 * &#x20;**https://github.com/t6x/reaver-wps-fork-t6x**&#x20;

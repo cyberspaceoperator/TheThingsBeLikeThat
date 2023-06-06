@@ -63,16 +63,16 @@ Know normal to find evil
 {% endhint %}
 
 {% hint style="info" %}
-****[**https://www.echotrail.io/products/insights/**](https://www.echotrail.io/products/insights/)****
+[**https://www.echotrail.io/products/insights/**](https://www.echotrail.io/products/insights/)
 {% endhint %}
 
 * <mark style="color:orange;">When reviewing/analyzing processes, focus on these 6 areas</mark>:
   * _**Image name** - Legit process? Spelled correctly? Matches system context? (windows process' running on linux, that shouldn't happen)_
-  * &#x20;_ **Full Path** - Is this where you expect to see this process and/or is a process running out of a peculiar area (ie - C:\windows\temp)_
-  * &#x20;_ **Parent Process** - Is the parent process what you'd expect?_
+  * &#x20;_**Full Path** - Is this where you expect to see this process and/or is a process running out of a peculiar area (ie - C:\windows\temp)_
+  * &#x20;_**Parent Process** - Is the parent process what you'd expect?_
   * &#x20;_**Command Line** - Executable matches image name, do arguments make sense?_
-  * &#x20;_ **Start Time** - Was the process started at boot? Were any processes started near the time of the known attack?_
-  * &#x20;_ **Security IDs**_&#x20;
+  * &#x20;_**Start Time** - Was the process started at boot? Were any processes started near the time of the known attack?_
+  * &#x20;_**Security IDs**_&#x20;
 
 ### Volatility Plugins
 

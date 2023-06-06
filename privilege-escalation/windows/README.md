@@ -59,7 +59,7 @@ _**Useful Permissions**_
 
 * **SERVICE\_CHANGE\_CONFIG, SERVICE\_ALL\_ACCESS**
   * accesschk.exe /accepteula -uwcqv \<user> \<service>
-  * You can see below that the service "daclsvc" has the "_**SERVICE\_CHANGE\_CONFIG**" permission, which means you can change the BINPATH, it also has_ **SERVICE\_START** _and ****_** SERVICE\_STOP**
+  * You can see below that the service "daclsvc" has the "_**SERVICE\_CHANGE\_CONFIG**" permission, which means you can change the BINPATH, it also has_ **SERVICE\_START** _and_ **SERVICE\_STOP**
 
 ![](<../../.gitbook/assets/image (20).png>)
 
@@ -93,10 +93,10 @@ Very good writeup on unquoted service paths
 
 ### _**Insecure Service Executables** (original service executable modifiable by our user, replace with our reverse shell)_
 
-### **DLL Hijacking **_****_&#x20;
+### **DLL Hijacking**&#x20;
 
 _Believe it or not, services try to load functions/functionality from a library called a DLL. The DLL will be loaded(executed) with the same privs as the service that loaded it. If the DLL is loaded with an absolute path, it might be possible to escalate privileges if that DLL is writable by our user._\
-__\
+\
 _More commonly, though; a DLL may be missing from the system, and our user has write access within that path, however this is a very manual process to find normally._
 
 ![Output of WinPEAS.exe DLL section (obviously very vulnerable system)](<../../.gitbook/assets/image (8) (1).png>)

@@ -21,7 +21,7 @@
     * Adversary network segmentation / kill-switch
 * <mark style="color:blue;">**Eradication / Remediation (Goal: Get the adversary OFF the network)**</mark>
   * <mark style="color:blue;">**3 Steps:**</mark>
-    1. &#x20;<mark style="color:blue;">****</mark> <mark style="color:blue;"></mark><mark style="color:blue;">Posture for remediation</mark>
+    1. &#x20;<mark style="color:blue;">Posture for remediation</mark>
     2. <mark style="color:blue;">Execute remediation</mark>
     3. <mark style="color:blue;">Implement and apply additional security controls</mark>
   * <mark style="color:blue;">**Example Tasks**</mark>

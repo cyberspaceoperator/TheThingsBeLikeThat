@@ -35,7 +35,7 @@ Always **MANUALLY enumerate** with nmap and/or by opening up wireshark
 
 Come across ports you didn't know? (like **9419,9420,9421,9425**?**)**
 
-****[**https://www.speedguide.net/port.php?port=9419**](https://www.speedguide.net/port.php?port=9419)****
+[**https://www.speedguide.net/port.php?port=9419**](https://www.speedguide.net/port.php?port=9419)
 {% endhint %}
 
 ## Step 2: Gaining access / Enumeration
@@ -57,7 +57,7 @@ Come across ports you didn't know? (like **9419,9420,9421,9425**?**)**
          1. **Ask yourself:** Do I even need an exploit in the first place? **(most compromises are a result of incorrectly configuring, neglecting, or not understanding the program/service)**
    3. Copy / Paste / Write / Document all of your findings in a note-taking software **that is EASY to read.** I've found that using things like cherry tree only work if I use a nice font, make it larger, color code certain things, etc. Otherwise if I'm just copying/pasting from console, the text is small, thin, hard to see and I go cross-eyed.
 
-****
+
 
 
 

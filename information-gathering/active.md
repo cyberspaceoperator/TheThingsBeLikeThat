@@ -8,7 +8,7 @@ Summary of tools
 * host&#x20;
 * dnsenum // swiss-army knife of dns
 * dnsrecon
-* fierce **** // **bruteforce** subdomains
+* fierce // **bruteforce** subdomains
 * Sublist3r
 
 Learn more about / practice these commands @ [https://digi.ninja/projects/zonetransferme.php](https://digi.ninja/projects/zonetransferme.php)

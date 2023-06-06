@@ -1,6 +1,6 @@
 # Tools / Resources
 
-## <mark style="color:blue;">****</mark>
+##
 
 ## <mark style="color:blue;">**IOC Tools**</mark>
 
