@@ -43,7 +43,7 @@ mftecmd
 
 Most Common:
 
-<figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption><p>common mft attributes</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (3) (3).png" alt=""><figcaption><p>common mft attributes</p></figcaption></figure>
 
 ### Analyze Filesystem Metadata w/ Sleuth Kit istat
 
@@ -106,7 +106,8 @@ Timestomping
 #### Extracting Data with The Slueth Kit's "istat / icat"
 
 <pre><code><strong># istat &#x3C;path_to_file> &#x3C;MFT Record ID>
-</strong><strong># icat &#x3C;path_to_file> &#x3C;attribute ID (number for the Alternate data stream></strong></code></pre>
+</strong><strong># icat &#x3C;path_to_file> &#x3C;attribute ID (number for the Alternate data stream>
+</strong></code></pre>
 
 <figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>icat / istat output</p></figcaption></figure>
 
@@ -190,7 +191,7 @@ Velociraptior artifacts collect Windows.NTFS.I30 --args DirectoryGlobs="F:\\Wind
 * Stored in large $J ADS (alternated data streams)
 * VSS can also possibly yield more journals
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>USNJrnl op codes</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption><p>USNJrnl op codes</p></figcaption></figure>
 
 ### Useful Filters and Searches in Journals
 
