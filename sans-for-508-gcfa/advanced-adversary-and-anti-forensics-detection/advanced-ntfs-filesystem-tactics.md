@@ -131,7 +131,7 @@ How does Windows recognize that some files were downloaded from the internet?
   * $INDEX\_ALLOCATION - required for larger directories (stored in clusters)
 * Implemented as a B-Tree (binary tree) structure
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 ### B-Tree Indexing
 
@@ -179,7 +179,7 @@ Velociraptior artifacts collect Windows.NTFS.I30 --args DirectoryGlobs="F:\\Wind
   * On secondary drives the journal may be there for days
 * VSS can also possibly yield more journals
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>LogFile op codes</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>LogFile op codes</p></figcaption></figure>
 
 ### $UsnJrnl
 
@@ -195,7 +195,7 @@ Velociraptior artifacts collect Windows.NTFS.I30 --args DirectoryGlobs="F:\\Wind
 
 ### Useful Filters and Searches in Journals
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Tool: LogFilerParser.exe
 

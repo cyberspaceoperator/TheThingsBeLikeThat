@@ -67,7 +67,7 @@ After using that exploit with no special parameters, I did normal enumeration of
 
 What I did find was a KeePass database file
 
-![KeePass database file](<../../.gitbook/assets/image (3) (1) (1).png>)
+![KeePass database file](<../../.gitbook/assets/image (3) (1) (1) (1).png>)
 
 I was able to use keepass2john.py&#x20;
 

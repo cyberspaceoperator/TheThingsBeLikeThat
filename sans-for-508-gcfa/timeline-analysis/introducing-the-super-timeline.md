@@ -10,7 +10,7 @@
 
 ### Plaso Webhistory parsers
 
-![](<../../.gitbook/assets/image (7).png>)
+![](<../../.gitbook/assets/image (7) (3).png>)
 
 ### Plaso Linux/Android/Mac&#x20;
 

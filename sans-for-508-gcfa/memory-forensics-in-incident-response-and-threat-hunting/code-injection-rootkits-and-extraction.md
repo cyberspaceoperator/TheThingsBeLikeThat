@@ -233,7 +233,7 @@ Often used in combination with filescan
 
 ### Plugin: shimcachemem
 
-![shimcachemem](<../../.gitbook/assets/image (2) (2).png>)
+![shimcachemem](<../../.gitbook/assets/image (2) (2) (1).png>)
 
 ## Review
 
