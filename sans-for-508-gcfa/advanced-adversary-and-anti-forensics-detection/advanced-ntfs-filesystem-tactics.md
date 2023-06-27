@@ -93,7 +93,7 @@ Timestomping
   5. **$STANDARD\_INFORMATION** times prior to $I30 slack entries
   6. MFT entry number is significantly out of sequence from the expected range
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (3).png" alt=""><figcaption></figcaption></figure>
 
 ### Analyzing $DATA
 

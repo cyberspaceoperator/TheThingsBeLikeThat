@@ -15,7 +15,7 @@ When doing a timeline, stay in UTC for everything
 * <mark style="color:blue;">B - File Creation Time (most important, arguably) (Born Time)</mark>
   * Time file was created in the volume
 
-![timestamps](<../../.gitbook/assets/image (9).png>)
+![timestamps](<../../.gitbook/assets/image (9) (2).png>)
 
 {% embed url="https://docs.microsoft.com/en-us/windows/win32/sysinfo/file-times?redirectedfrom=MSDN" %}
 filetimes
