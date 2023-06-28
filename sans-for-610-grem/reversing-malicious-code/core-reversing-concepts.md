@@ -51,9 +51,9 @@ Brackets means fetch data at the specified address (dereference)
 
 Some tools do not include the brackets
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>dereferencing</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>dereferencing</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>indirect referencing</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>indirect referencing</p></figcaption></figure>
 
 Above: Indirect referencing may pose challenges because registers are not populated until runtime
 
