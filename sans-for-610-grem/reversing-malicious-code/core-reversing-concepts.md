@@ -19,7 +19,7 @@ Sometimes Ghidra might not interpret data correctly (it may mistake a string for
     * Right click on the label of the data you're trying to interpret, Data > \[choose data type]
 
     Before:\
-    ![](../../.gitbook/assets/image.png)
+    ![](<../../.gitbook/assets/image (7).png>)
 
 &#x20;     After:\
 &#x20;    &#x20;

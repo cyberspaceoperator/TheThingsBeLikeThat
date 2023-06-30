@@ -131,7 +131,7 @@ How does Windows recognize that some files were downloaded from the internet?
   * $INDEX\_ALLOCATION - required for larger directories (stored in clusters)
 * Implemented as a B-Tree (binary tree) structure
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (3).png" alt=""><figcaption></figcaption></figure>
 
 ### B-Tree Indexing
 
@@ -158,7 +158,7 @@ Velociraptior artifacts collect Windows.NTFS.I30 --args DirectoryGlobs="F:\\Wind
 
 ## File System Journaling
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption><p>journaling cheat sheet</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (2).png" alt=""><figcaption><p>journaling cheat sheet</p></figcaption></figure>
 
 * Records file system **metadata changes**
 * Two files track these changes

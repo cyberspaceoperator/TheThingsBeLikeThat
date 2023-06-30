@@ -41,7 +41,7 @@ Modified timestamp before creation time!? That's because the file was probably c
 
 What else can change the timestamps?
 
-![time rule exceptions](<../../.gitbook/assets/image (13).png>)
+![time rule exceptions](<../../.gitbook/assets/image (13) (2).png>)
 
 ## Understanding the Filesystem Timeline Format
 
