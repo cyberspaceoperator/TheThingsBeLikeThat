@@ -5,7 +5,7 @@
 * Windows Artifacts
 * Registry Keys
 
-![windows artifacts](<../../.gitbook/assets/image (8) (2).png>)
+![windows artifacts](<../../.gitbook/assets/image (8) (2) (1).png>)
 
 Where do I begin to look?
 

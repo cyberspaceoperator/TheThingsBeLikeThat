@@ -30,11 +30,11 @@ For and While loops are functionally identical when it comes to the assembly opc
 1. **For Loop** - Initialization, stopping, and updating conditions are specified at the beginning
    1.
 
-       <figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 2. **While Loop** - Initialization is separate from the stopping condition, and the updating of the control variables is in the body of the loop
    1.
 
-       <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 3. **Do while Loop** - Similar to while, except the code block gets executed at least once before the condition is evaluated
 4. Switch Statement
 
@@ -42,5 +42,5 @@ For and While loops are functionally identical when it comes to the assembly opc
 Switch statements have an embedded address table created by the compiler&#x20;
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 

@@ -2,7 +2,7 @@
 
 ### log2timeline.py Windows Plugins
 
-![](<../../.gitbook/assets/image (10).png>)
+![](<../../.gitbook/assets/image (10) (3).png>)
 
 ### log2timeline registry parsers
 

@@ -51,7 +51,7 @@ Brackets means fetch data at the specified address (dereference)
 
 Some tools do not include the brackets
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>dereferencing</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (2).png" alt=""><figcaption><p>dereferencing</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>indirect referencing</p></figcaption></figure>
 
