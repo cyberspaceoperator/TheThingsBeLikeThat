@@ -42,5 +42,5 @@ For and While loops are functionally identical when it comes to the assembly opc
 Switch statements have an embedded address table created by the compiler&#x20;
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (3).png" alt=""><figcaption></figcaption></figure>
 

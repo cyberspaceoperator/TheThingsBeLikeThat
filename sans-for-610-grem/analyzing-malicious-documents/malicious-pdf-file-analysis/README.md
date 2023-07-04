@@ -9,7 +9,7 @@ The structure and contents of a PDF file are defined using objects
 3. Cross-reference table (xref) - Specifies offsets where the files objects are located. This allows for easy modification of the file without rewriting the whole thing.
 4. Trailer - Containes offsets of the xref table and number of objects
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>pdf structure</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>pdf structure</p></figcaption></figure>
 
 PDF opened in a normal text editor
 
@@ -20,7 +20,7 @@ PDF opened in a normal text editor
 * /O is open document
   * 43  0 references another object
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ### Streams
 
@@ -32,7 +32,7 @@ PDF objects use streams to store data, such as text. Malicious PDFs sometimes co
    1. This provides a quick look at the PDF, nothing too interesting, any other text editor would probably do just fine
 2. Open pdfid.py - Performs basic triage and displays keywords and number of instances, 0 means "no instances of keyword"
    1. Some malicious documents might use OpenAction or URI (among others)
-   2. <img src="../../../.gitbook/assets/image (1).png" alt="" data-size="original">
+   2. <img src="../../../.gitbook/assets/image (1) (3).png" alt="" data-size="original">
 3.  Open pdfparser.py
 
 

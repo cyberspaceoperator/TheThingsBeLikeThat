@@ -43,7 +43,7 @@ mftecmd
 
 Most Common:
 
-<figure><img src="../../.gitbook/assets/image (1) (3) (3).png" alt=""><figcaption><p>common mft attributes</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (3) (3) (1).png" alt=""><figcaption><p>common mft attributes</p></figcaption></figure>
 
 ### Analyze Filesystem Metadata w/ Sleuth Kit istat
 
@@ -65,7 +65,7 @@ Most Common:
 
 #### Time rules for $STANDARD\_INFORMATION
 
-![](<../../.gitbook/assets/image (2) (1).png>)
+![](<../../.gitbook/assets/image (2) (1) (1).png>)
 
 ### Analyzing $FILE\_NAME (0x30) & Attribute Summary
 
@@ -191,7 +191,7 @@ Velociraptior artifacts collect Windows.NTFS.I30 --args DirectoryGlobs="F:\\Wind
 * Stored in large $J ADS (alternated data streams)
 * VSS can also possibly yield more journals
 
-<figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption><p>USNJrnl op codes</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (3) (3).png" alt=""><figcaption><p>USNJrnl op codes</p></figcaption></figure>
 
 ### Useful Filters and Searches in Journals
 
