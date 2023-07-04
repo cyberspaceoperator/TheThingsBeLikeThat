@@ -87,6 +87,7 @@ $ zipdump.py <filename> -s <index number> -d > <output_filname>
 
 * oledump - Provides even deeper visibility into VBA macros and related artifacts, examine the documents streams
   * Will automatically find and parse OLE2 files within OOXML files
+  * **SRP** streams may contain cached previously executed VBA scripts that an attacker later modified
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>oledump.py</p></figcaption></figure>
 
@@ -98,23 +99,26 @@ oledump.py particulars.doc -s a -v | more
 
 * re-search.py
 * sets.py
+* exiftool - Can look at metadata of a file (filename, directory, modified by, etc etc)
 
-| [zipdump.py](https://videos.didierstevens.com/2014/08/14/zipdump-py/) _file.pptx_               | Examine contents of OOXML file _file.pptx_.                               |
-| ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| [zipdump.py](https://videos.didierstevens.com/2014/08/14/zipdump-py/) _file.pptx -s 3 -d_       | Extract file with index _3_from _file.pptx_ to STDOUT.                    |
-| [olevba](https://github.com/decalage2/oletools/wiki/olevba) _file.xlsm_                         | Locate and extract macros from _file.xlsm_.                               |
-| [oledump.py](https://blog.didierstevens.com/programs/oledump-py/) _file.xls_ -i                 | List all OLE2 streams present in _file.xls_.                              |
-| oledump.py _file.xls_ -s _3_ -v                                                                 | Extract VBA source code from stream _3_ in _file.xls_.                    |
-| [xmldump.py](https://blog.didierstevens.com/2018/01/15/update-xmldump-py-version-0-0-2/) pretty | Format XML file supplied via STDIN for easier analysis.                   |
-| oledump.py _file.xls_ -p plugin\_http\_heuristics                                               | Find obfuscated URLs in _file.xls_ macros.                                |
-| [vmonkey](https://github.com/decalage2/ViperMonkey) _file.doc_                                  | Emulate the execution of macros in file.doc to analyze them.              |
-| [evilclippy](https://github.com/outflanknl/EvilClippy) -uu _file.ppt_                           | Remove the password prompt from macros in _file.ppt_.                     |
-| [msoffcrypto-tool](https://github.com/nolze/msoffcrypto-tool) _infile.docm_ _outfile.docm -p_   | Decrypt _outfile.docm_ using specified password to create _outfile.docm_. |
-| [pcodedmp](https://github.com/bontchev/pcodedmp) _file.doc_                                     | <p>Disassemble VBA-stomped <br>p-code macro from <em>file.doc</em>.</p>   |
-| [pcode2code](https://github.com/Big5-sec/pcode2code) file.doc                                   | <p>Decompile VBA-stomped <br>p-code macro from <em>file.doc</em>.</p>     |
-| [rtfobj.py](https://www.decalage.info/python/rtfobj) _file.rtf_                                 | Extract objects embedded into RTF _file.rtf_.                             |
-| [rtfdump.py](https://blog.didierstevens.com/2016/08/02/rtfdump-update-and-videos/) _file.rtf_   | List groups and structure of RTF file _file.rtf_.                         |
-| rtfdump.py _file.rtf_ -O                                                                        | Examine objects in RTF file _file.rtf_.                                   |
-| rtfdump.py _file.rtf_ -s _5_ -H -d                                                              | Extract hex contents from group in RTF file _file.rtf_.                   |
-| [xlmdeobfuscator](https://github.com/DissectMalware/XLMMacroDeobfuscator) --file _file.xlsm_    | Deobfuscate XLM (Excel 4) macros in _file.xlsm_.                          |
+
+
+| [zipdump.py](https://videos.didierstevens.com/2014/08/14/zipdump-py/) _file.pptx_                                                                        | Examine contents of OOXML file _file.pptx_.                                                               |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| [zipdump.py](https://videos.didierstevens.com/2014/08/14/zipdump-py/) _file.pptx -s 3 -d_                                                                | Extract file with index _3_from _file.pptx_ to STDOUT.                                                    |
+| [olevba](https://github.com/decalage2/oletools/wiki/olevba) _file.xlsm_                                                                                  | Locate and extract macros from _file.xlsm_.                                                               |
+| [oledump.py](https://blog.didierstevens.com/programs/oledump-py/) _file.xls_ -i                                                                          | List all OLE2 streams present in _file.xls_.                                                              |
+| oledump.py _file.xls_ -s _3_ -v                                                                                                                          | Extract VBA source code from stream _3_ in _file.xls_.                                                    |
+| [xmldump.py](https://blog.didierstevens.com/2018/01/15/update-xmldump-py-version-0-0-2/) pretty                                                          | Format XML file supplied via STDIN for easier analysis.                                                   |
+| oledump.py _file.xls_ -p plugin\_http\_heuristics                                                                                                        | Find obfuscated URLs in _file.xls_ macros.                                                                |
+| [<mark style="background-color:green;">vmonkey</mark>](https://github.com/decalage2/ViperMonkey) _<mark style="background-color:green;">file.doc</mark>_ | <mark style="background-color:green;">Emulate the execution of macros in file.doc to analyze them.</mark> |
+| [evilclippy](https://github.com/outflanknl/EvilClippy) -uu _file.ppt_                                                                                    | Remove the password prompt from macros in _file.ppt_.                                                     |
+| [msoffcrypto-tool](https://github.com/nolze/msoffcrypto-tool) _infile.docm_ _outfile.docm -p_                                                            | Decrypt _outfile.docm_ using specified password to create _outfile.docm_.                                 |
+| [pcodedmp](https://github.com/bontchev/pcodedmp) _file.doc_                                                                                              | <p>Disassemble VBA-stomped <br>p-code macro from <em>file.doc</em>.</p>                                   |
+| [pcode2code](https://github.com/Big5-sec/pcode2code) file.doc                                                                                            | <p>Decompile VBA-stomped <br>p-code macro from <em>file.doc</em>.</p>                                     |
+| [rtfobj.py](https://www.decalage.info/python/rtfobj) _file.rtf_                                                                                          | Extract objects embedded into RTF _file.rtf_.                                                             |
+| [rtfdump.py](https://blog.didierstevens.com/2016/08/02/rtfdump-update-and-videos/) _file.rtf_                                                            | List groups and structure of RTF file _file.rtf_.                                                         |
+| rtfdump.py _file.rtf_ -O                                                                                                                                 | Examine objects in RTF file _file.rtf_.                                                                   |
+| rtfdump.py _file.rtf_ -s _5_ -H -d                                                                                                                       | Extract hex contents from group in RTF file _file.rtf_.                                                   |
+| [xlmdeobfuscator](https://github.com/DissectMalware/XLMMacroDeobfuscator) --file _file.xlsm_                                                             | Deobfuscate XLM (Excel 4) macros in _file.xlsm_.                                                          |
 
