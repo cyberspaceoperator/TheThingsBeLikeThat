@@ -122,3 +122,14 @@ oledump.py particulars.doc -s a -v | more
 | rtfdump.py _file.rtf_ -s _5_ -H -d                                                                                                                       | Extract hex contents from group in RTF file _file.rtf_.                                                   |
 | [xlmdeobfuscator](https://github.com/DissectMalware/XLMMacroDeobfuscator) --file _file.xlsm_                                                             | Deobfuscate XLM (Excel 4) macros in _file.xlsm_.                                                          |
 
+## Examination
+
+1. Identify the file type (OLE2 or OOXML)
+   1. You may use **trid** for this
+2. Identify if there are macros embedded in streams
+   1. **oledump.py** should work for this
+   2. olevba also works
+3. If macros are present in streams, you need to extract the code from the streams
+   1. using oledump.py \[filname] -s \[stream number] -v&#x20;
+   2. some cleanup may be necessary
+
