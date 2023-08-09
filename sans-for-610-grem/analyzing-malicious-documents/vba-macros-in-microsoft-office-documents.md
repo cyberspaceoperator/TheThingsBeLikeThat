@@ -83,13 +83,13 @@ $ zipdump.py <filename> -s <index number> -d > <output_filname>
 
     <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>olevba snippet</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>olevbd table output</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>olevbd table output</p></figcaption></figure>
 
 * oledump - Provides even deeper visibility into VBA macros and related artifacts, examine the documents streams
   * Will automatically find and parse OLE2 files within OOXML files
   * **SRP** streams may contain cached previously executed VBA scripts that an attacker later modified
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>oledump.py</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (4).png" alt=""><figcaption><p>oledump.py</p></figcaption></figure>
 
 * Use "-s a" paramted to oldedump.py to extra VBA macros from ALL streams in a particular document
 
@@ -132,4 +132,10 @@ oledump.py particulars.doc -s a -v | more
 3. If macros are present in streams, you need to extract the code from the streams
    1. using oledump.py \[filname] -s \[stream number] -v&#x20;
    2. some cleanup may be necessary
+
+### VBA Stomping
+
+VBA Stomping is when the source code of the VBA script is removed from the document/file, leaving only the compiled code in it's place
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
