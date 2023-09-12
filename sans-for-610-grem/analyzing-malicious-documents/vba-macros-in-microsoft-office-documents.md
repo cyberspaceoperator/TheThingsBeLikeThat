@@ -121,6 +121,7 @@ oledump.py particulars.doc -s a -v | more
 | rtfdump.py _file.rtf_ -O                                                                                                                                 | Examine objects in RTF file _file.rtf_.                                                                   |
 | rtfdump.py _file.rtf_ -s _5_ -H -d                                                                                                                       | Extract hex contents from group in RTF file _file.rtf_.                                                   |
 | [xlmdeobfuscator](https://github.com/DissectMalware/XLMMacroDeobfuscator) --file _file.xlsm_                                                             | Deobfuscate XLM (Excel 4) macros in _file.xlsm_.                                                          |
+| scdbgc /f \<executable> /s -1                                                                                                                            | Emulates running a file and shows the API calls being made                                                |
 
 ## Examination
 
