@@ -179,7 +179,7 @@ Velociraptior artifacts collect Windows.NTFS.I30 --args DirectoryGlobs="F:\\Wind
   * On secondary drives the journal may be there for days
 * VSS can also possibly yield more journals
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>LogFile op codes</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (2).png" alt=""><figcaption><p>LogFile op codes</p></figcaption></figure>
 
 ### $UsnJrnl
 

@@ -48,4 +48,4 @@ Where do I begin to look?
    * Focus on the context of the evidence
    * Use Windows Forensics "Evidence Of..." poster
 
-<figure><img src="../../.gitbook/assets/image (2) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (4) (1).png" alt=""><figcaption></figcaption></figure>
