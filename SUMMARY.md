@@ -236,6 +236,8 @@
   * [Debugging Packed Malware](sans-for-610-grem/in-depth-malware-analysis/debugging-packed-malware.md)
   * [Analyzing Multi-Technology Malware](sans-for-610-grem/in-depth-malware-analysis/analyzing-multi-technology-malware/README.md)
     * [Exercise 4.7](sans-for-610-grem/in-depth-malware-analysis/analyzing-multi-technology-malware/exercise-4.7.md)
+    * [Exercise 4.8](sans-for-610-grem/in-depth-malware-analysis/analyzing-multi-technology-malware/exercise-4.8.md)
+    * [Exercise 4.9](sans-for-610-grem/in-depth-malware-analysis/analyzing-multi-technology-malware/exercise-4.9.md)
   * [Code Injection and API Hooking](sans-for-610-grem/in-depth-malware-analysis/code-injection-and-api-hooking.md)
 * [Examining Self-Defending Software](sans-for-610-grem/examining-self-defending-software.md)
 * [Malware Analysis Tournament (NETWARS)](sans-for-610-grem/malware-analysis-tournament-netwars.md)
