@@ -237,4 +237,4 @@ Often used in combination with filescan
 
 ## Review
 
-![](<../../.gitbook/assets/image (4) (2).png>)
+![](<../../.gitbook/assets/image (4) (2) (1).png>)

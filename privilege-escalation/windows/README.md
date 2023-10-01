@@ -99,7 +99,7 @@ _Believe it or not, services try to load functions/functionality from a library 
 \
 _More commonly, though; a DLL may be missing from the system, and our user has write access within that path, however this is a very manual process to find normally._
 
-![Output of WinPEAS.exe DLL section (obviously very vulnerable system)](<../../.gitbook/assets/image (8) (1).png>)
+![Output of WinPEAS.exe DLL section (obviously very vulnerable system)](<../../.gitbook/assets/image (8) (1) (1).png>)
 
 ### AutoRuns
 
@@ -110,11 +110,11 @@ On windows 10 (and possibly others), Autoruns may tend to run the command with t
 Windows can be configured to run commands at startup with elevated privs, these are configured in the registry. If we're able to write to an AutoRun exe, and able to restart or wait for restart, we might be able to escalate\
 
 
-![Autorun program found by winPEAS](<../../.gitbook/assets/image (9) (1).png>)
+![Autorun program found by winPEAS](<../../.gitbook/assets/image (9) (1) (1).png>)
 
 Validate the above output with accesschk to make sure that the output is correct (this may not always be feasible, obviously)
 
-![Validating permissions](<../../.gitbook/assets/image (12) (1).png>)
+![Validating permissions](<../../.gitbook/assets/image (12) (1) (1).png>)
 
 AlwaysInstallElevated
 

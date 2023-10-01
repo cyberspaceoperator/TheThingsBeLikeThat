@@ -9,7 +9,7 @@ The structure and contents of a PDF file are defined using objects
 3. Cross-reference table (xref) - Specifies offsets where the files objects are located. This allows for easy modification of the file without rewriting the whole thing.
 4. Trailer - Containes offsets of the xref table and number of objects
 
-<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>pdf structure</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (2).png" alt=""><figcaption><p>pdf structure</p></figcaption></figure>
 
 PDF opened in a normal text editor
 
@@ -20,7 +20,7 @@ PDF opened in a normal text editor
 * /O is open document
   * 43  0 references another object
 
-<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Streams
 

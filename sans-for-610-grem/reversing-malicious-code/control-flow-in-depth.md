@@ -30,7 +30,7 @@ For and While loops are functionally identical when it comes to the assembly opc
 1. **For Loop** - Initialization, stopping, and updating conditions are specified at the beginning
    1.
 
-       <figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+       <figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 2. **While Loop** - Initialization is separate from the stopping condition, and the updating of the control variables is in the body of the loop
    1.
 

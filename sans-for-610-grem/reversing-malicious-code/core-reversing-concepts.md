@@ -1,6 +1,6 @@
 # Core Reversing Concepts
 
-<figure><img src="../../.gitbook/assets/image (7) (2).png" alt=""><figcaption><p>Reevrsing Concepts</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (2) (1).png" alt=""><figcaption><p>Reevrsing Concepts</p></figcaption></figure>
 
 ## Ghidra
 
@@ -19,7 +19,7 @@ Sometimes Ghidra might not interpret data correctly (it may mistake a string for
     * Right click on the label of the data you're trying to interpret, Data > \[choose data type]
 
     Before:\
-    ![](<../../.gitbook/assets/image (7).png>)
+    ![](<../../.gitbook/assets/image (7) (2).png>)
 
 &#x20;     After:\
 &#x20;    &#x20;
@@ -53,7 +53,7 @@ Some tools do not include the brackets
 
 <figure><img src="../../.gitbook/assets/image (8) (2).png" alt=""><figcaption><p>dereferencing</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>indirect referencing</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>indirect referencing</p></figcaption></figure>
 
 Above: Indirect referencing may pose challenges because registers are not populated until runtime
 

@@ -20,7 +20,7 @@ mftecmd
 * Volume shadow copies
 * Etc...
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption><p>ntfs features</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption><p>ntfs features</p></figcaption></figure>
 
 ## Master File Table (MFT)
 
@@ -109,7 +109,7 @@ Timestomping
 </strong><strong># icat &#x3C;path_to_file> &#x3C;attribute ID (number for the Alternate data stream>
 </strong></code></pre>
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>icat / istat output</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>icat / istat output</p></figcaption></figure>
 
 #### Zone.Identifier : Evidence of Download
 
@@ -179,7 +179,7 @@ Velociraptior artifacts collect Windows.NTFS.I30 --args DirectoryGlobs="F:\\Wind
   * On secondary drives the journal may be there for days
 * VSS can also possibly yield more journals
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (2).png" alt=""><figcaption><p>LogFile op codes</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (2) (1).png" alt=""><figcaption><p>LogFile op codes</p></figcaption></figure>
 
 ### $UsnJrnl
 
