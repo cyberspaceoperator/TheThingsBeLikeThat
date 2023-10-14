@@ -10,7 +10,15 @@ Malware can spot other way in which lab and sandbox systems are different from t
 
 We can bypass these evasion techniques by patching the code or changing the analysis system's setup and behavior
 
+Malware may do many things to check whether or not it should run
 
+It may call **SetWindowsHookExa**, which can check if the mouse is moving, if a specific button has been pressed, etc
+
+It may call **GetModuleHandleW** to see if it detects AVG software by looking for avghookx.dll
+
+It may call **FindWindow** to see if the name of its window is Olydbg, or some other debugger
+
+It may disable the **BlockInput** defense
 
 
 
