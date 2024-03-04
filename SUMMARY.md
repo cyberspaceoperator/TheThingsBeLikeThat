@@ -248,3 +248,13 @@
   * [Handling Misdirection Techniques](sans-for-610-grem/examining-self-defending-software/handling-misdirection-techniques.md)
   * [Unpacking by Anticipating Actions](sans-for-610-grem/examining-self-defending-software/unpacking-by-anticipating-actions.md)
 * [Malware Analysis Tournament (NETWARS)](sans-for-610-grem/malware-analysis-tournament-netwars.md)
+
+## SANS SEC 565 - Red Team Operations
+
+* [Planning Adversary Emulation and Threat Intelligence](sans-sec-565-red-team-operations/planning-adversary-emulation-and-threat-intelligence/README.md)
+  * [Common Language](sans-sec-565-red-team-operations/planning-adversary-emulation-and-threat-intelligence/common-language.md)
+  * [Why Red Team](sans-sec-565-red-team-operations/planning-adversary-emulation-and-threat-intelligence/why-red-team.md)
+  * [Frameworks and Methodologies](sans-sec-565-red-team-operations/planning-adversary-emulation-and-threat-intelligence/frameworks-and-methodologies.md)
+  * [Threat Intel](sans-sec-565-red-team-operations/planning-adversary-emulation-and-threat-intelligence/threat-intel.md)
+  * [Planning](sans-sec-565-red-team-operations/planning-adversary-emulation-and-threat-intelligence/planning.md)
+  * [Red Team Execution](sans-sec-565-red-team-operations/planning-adversary-emulation-and-threat-intelligence/red-team-execution.md)
