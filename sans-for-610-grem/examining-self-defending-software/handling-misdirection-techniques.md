@@ -9,11 +9,11 @@ Malicious actors can take advantage of Structured Exception Handling which is a 
 
 64-bit SEH records employed a table-based approach which the compiler generates a table that describes the programs exception handlers, embedding this table in the files PE header.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>End of SEH chain</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>End of SEH chain</p></figcaption></figure>
 
 How does Windows know where to START navigating the chain?
 
@@ -23,9 +23,9 @@ The SEH tab in x32dbg shows the SEH chain
 
 Writing into the first part of the data segment always causes an exception because it's non-writable
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>causing an exception</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>causing an exception</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Causing an exception that executes malicious code</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Causing an exception that executes malicious code</p></figcaption></figure>
 
 Lets practice first by assuming we know nothing about the malware, which we normally don't:
 

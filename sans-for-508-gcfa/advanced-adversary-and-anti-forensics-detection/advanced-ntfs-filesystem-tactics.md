@@ -65,7 +65,7 @@ Most Common:
 
 #### Time rules for $STANDARD\_INFORMATION
 
-![](<../../.gitbook/assets/image (2) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (2) (1) (1) (1) (1).png>)
 
 ### Analyzing $FILE\_NAME (0x30) & Attribute Summary
 
@@ -109,7 +109,7 @@ Timestomping
 </strong><strong># icat &#x3C;path_to_file> &#x3C;attribute ID (number for the Alternate data stream>
 </strong></code></pre>
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>icat / istat output</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>icat / istat output</p></figcaption></figure>
 
 #### Zone.Identifier : Evidence of Download
 

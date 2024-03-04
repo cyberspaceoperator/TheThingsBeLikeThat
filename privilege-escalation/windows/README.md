@@ -99,7 +99,7 @@ _Believe it or not, services try to load functions/functionality from a library 
 \
 _More commonly, though; a DLL may be missing from the system, and our user has write access within that path, however this is a very manual process to find normally._
 
-![Output of WinPEAS.exe DLL section (obviously very vulnerable system)](<../../.gitbook/assets/image (8) (1) (1).png>)
+![Output of WinPEAS.exe DLL section (obviously very vulnerable system)](<../../.gitbook/assets/image (8) (1) (1) (1).png>)
 
 ### AutoRuns
 
