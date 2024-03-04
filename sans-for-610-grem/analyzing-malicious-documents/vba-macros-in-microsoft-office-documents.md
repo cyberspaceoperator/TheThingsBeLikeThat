@@ -139,5 +139,5 @@ oledump.py particulars.doc -s a -v | more
 
 VBA Stomping is when the source code of the VBA script is removed from the document/file, leaving only the compiled code in it's place
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
