@@ -2,9 +2,9 @@
 
 ## Enumeration Mental Model
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 *   <mark style="color:green;">**Host recon**</mark>
 
@@ -38,7 +38,7 @@
 
 ### Bloodhound
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>cheat sheet boundhound</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>cheat sheet boundhound</p></figcaption></figure>
 
 ### ADExplorer
 

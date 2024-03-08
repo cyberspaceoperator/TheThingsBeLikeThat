@@ -45,7 +45,7 @@ Nmap done: 1 IP address (1 host up) scanned in 21.02 seconds
 
 **Port 21 is always fun when it has anonymous access, let's try it out.**
 
-![finding todo.txt](<../.gitbook/assets/image (19).png>)
+![finding todo.txt](<../.gitbook/assets/image (19) (1).png>)
 
 **The contents of todo.txt are revealing ( I added some notes underneath the original notes.**
 
@@ -74,7 +74,7 @@ Nmap done: 1 IP address (1 host up) scanned in 21.02 seconds
 **Port 65000 is pretty weird, let's check that out.**\
 **Just an apache default page, which is suspect. could be a new server / misconfig.**
 
-![](<../.gitbook/assets/image (18).png>)
+![](<../.gitbook/assets/image (18) (1).png>)
 
 **Lets dig deeper to find anything in here**
 

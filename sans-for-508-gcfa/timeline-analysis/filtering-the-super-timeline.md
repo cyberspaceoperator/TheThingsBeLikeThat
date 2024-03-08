@@ -14,5 +14,5 @@ pinfo.py -v plaso.dump
 
 command line tool to post-process the plaso storage database
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption><p>psort</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (2).png" alt=""><figcaption><p>psort</p></figcaption></figure>
 

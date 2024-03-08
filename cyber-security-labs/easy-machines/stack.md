@@ -6,7 +6,7 @@ description: Stack employs GitStack 2.3.10 for User access
 
 Initial scan indicates that port 80 (among other ports) are open
 
-![](<../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 In the next services (like 445) I also ran smbmap -H \<ip> but it did not return anything. It's important to make sure your smb.conf file has the correct configuration to allow for SMBv2, otherwise it will not be allowed if the host you're trying to connect to uses a newer version.
 
@@ -67,7 +67,7 @@ After using that exploit with no special parameters, I did normal enumeration of
 
 What I did find was a KeePass database file
 
-![KeePass database file](<../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png>)
+![KeePass database file](<../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 I was able to use keepass2john.py&#x20;
 
@@ -85,5 +85,5 @@ Here what I had:
 
 So I just downloaded KeePass on my Windows Environment and then opened the database file that way. From there I used psexec.py
 
-![](<../../.gitbook/assets/image (4) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png>)
 
