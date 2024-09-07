@@ -102,3 +102,11 @@ Data structures group simple variables into more complex types
 * File Handles
 * etc
 
+
+
+## Ghidra
+
+* Reverse engineering suite of tools
+* Its decompiler produces C representation of the code to speed up analysis
+* Ghidra includes support for writing Java and Python scripts to automate analysis
+
