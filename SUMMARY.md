@@ -291,3 +291,7 @@
   * [Impact](sans-sec-565-red-team-operations/action-on-objectives-and-reporting/impact.md)
   * [Engagement Closure](sans-sec-565-red-team-operations/action-on-objectives-and-reporting/engagement-closure.md)
   * [Retesting](sans-sec-565-red-team-operations/action-on-objectives-and-reporting/retesting.md)
+
+## CISM
+
+* [Page 1](cism/page-1.md)
